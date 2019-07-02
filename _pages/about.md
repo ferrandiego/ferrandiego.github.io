@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Me in a Nutshell (Under Construction)"
+title: "Me in a Nutshell"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
