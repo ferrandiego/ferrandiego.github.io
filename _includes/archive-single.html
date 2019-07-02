@@ -12,82 +12,6 @@
   {% assign title = post.title %}
 {% endif %}
 
-<style>
-    /*********************************
-     The list of publication items
-     *********************************/
-/* The list of items */
-.biblist { }
-/* The item */
-.biblist li { }
-/* You can define custom styles for plstyle field here. */
-
-
-/*************************************
- The box that contain BibTeX code
- *************************************/
-div.noshow { display: none; }
-div.bibtex {
-  margin-right: 0%;
-  margin-top: 1.2em;
-  margin-bottom: 1em;
-  border: 1px solid silver;
-  padding: 0em 1em;
-  background: #ffffee;
-}
-div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
-<script type="text/javascript">
-    <!--
-    // Toggle Display of BibTeX
-    function toggleBibtex(articleid) {
-        var bib = document.getElementById('bib_'+articleid);
-        if (bib) {
-            if(bib.className.indexOf('bibtex') != -1) {
-                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
-            }
-        } else {
-            return;
-        }
-    }
--->
-    </script>
-
-<ul class="biblist">
-<!-- Item: Maninis2018b -->
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <li ><p>
-      {{ post.author }}
-      <br><b>{{ post.title }}</b><br>
-      <i>{{ post.venue }}</i>, {{ post.year }}.
-      <br />
-      <a href="javascript:toggleBibtex('Maninis2018b')">[BibTeX]</a>
-      <a href={{ post.link}}>[PDF]</a> 
-       {% if post.project %}
-         <a href="http://www.vision.ee.ethz.ch/~cvlsegmentation/osvos-s/"  target="_blank">[Project Page]</a>
-       {% endif %}
-      </p>
-      <div id={{post.bibtexid}} class="bibtex noshow">
-        <pre>
-        @Article{{{ post.bibtex }}}
-        </pre>
-      </div>
-    </li>
-  </article>
-</div>
-</ul>
-<!--
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -134,5 +58,5 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;
 
   </article>
 </div>
--->
+
 
