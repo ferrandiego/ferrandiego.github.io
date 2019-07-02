@@ -25,4 +25,4 @@ I am a Telecomunication enginneer by UPC Barcelonatech, and PhD in computer visi
 * June 2018. Awarded as Outstanding Reviewer at <a href="http://cvpr2018.thecvf.com/program/reviewer_acknowledgements">CVPR2018</a>
 * April 2018. One <a href="https://www.researchgate.net/publication/328451374_Learning_to_Forecast_Pedestrian_Intention_from_Pose_Dynamics">paper</a> accepted to IV 2018.
 
-<a class="twitter-timeline" data-width="600" data-height="500" href="https://twitter.com/FerranDiego?ref_src=twsrc%5Etfw"></a> Tweets by FerranDiego <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="600" data-height="500" href="https://twitter.com/FerranDiego?ref_src=twsrc%5Etfw"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
