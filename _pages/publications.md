@@ -683,5 +683,3 @@ F. Diego, D. Geronimo and J. Vazquez-Corral (Eds.)
     {% endif %}
 {% endfor %}
 -->
-
-{% include _scripts.html %} 
