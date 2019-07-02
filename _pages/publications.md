@@ -34,7 +34,8 @@ div.bibtex {
 	background: #ffffee;
 }
 div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
-<script type="text/javascript">
+<script type="text/javascript">   
+     <!--
     // Toggle Display of BibTeX
     function toggleBibtex(articleid) {
         var bib = document.getElementById('bib_'+articleid);
@@ -46,6 +47,7 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;
             return;
         }
     }
+  -->
     </script>
 
 <!--
@@ -644,17 +646,17 @@ H. Duxans, D. Erro, J. Perez, F. Diego, A. Bonafonte and A. Moreno.
 
 <ul class="biblist">
 
-<!-- Item: Mackowiak2018a -->
+<!-- Item: diego2011book -->
 <li ><p>
 F. Diego, D. Geronimo and J. Vazquez-Corral (Eds.)
 <br><b>State of the Art of Research and Development in Computer Vision</b><br>
 <i>Proceedings of the Sixth CVC Workshop. Computer Vision Center </i>, 2011.
 <br />
-<a href="javascript:toggleBibtex('Mackowiak2018a')">[BibTeX]</a>
+<a href="javascript:toggleBibtex('diego2011book')">[BibTeX]</a>
 </p>
-<div id="bib_Mackowiak2018a" class="bibtex noshow">
+<div id="bib_diego2011book" class="bibtex noshow">
 <pre>
-@Article{Mackowiak2018a,
+@Article{diego2011book,
   author = {F. Diego and D. Geronimo and J. Vazquez-Corral (Eds.)},
   title = {State of the Art of Research and Development in Computer Vision},
   journal = {Proceedings of the Sixth CVC Workshop. Computer Vision Center},
