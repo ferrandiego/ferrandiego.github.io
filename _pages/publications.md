@@ -86,7 +86,7 @@ F. Diego, J. Serrat and A. M. López.
 <br><b>Joint Spatio--Temporal Alignment of Sequences</b><br>
 <i>IEEE Trans. on Multimedia (T-MM)</i>, 2013.
 <br />
-<a href="javascript:toggleBibtex('diego2013a')">[BibTeX]</a> <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/348209579/diego_12_joint.pdf" target="_blank">[PDF]</a>  <a href="https://hci.iwr.uni-heidelberg.de/Staff/fdiego/JointVA"  target="_blank">[Project Page]</a>
+<a href=javascript:toggleBibtex('diego2013a')>[BibTeX]</a> <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/348209579/diego_12_joint.pdf" target="_blank">[PDF]</a>  <a href="https://hci.iwr.uni-heidelberg.de/Staff/fdiego/JointVA"  target="_blank">[Project Page]</a>
 </p>
 <div id="bib_diego2013a" class="bibtex noshow">
 <pre>
