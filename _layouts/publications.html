@@ -56,7 +56,7 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
-      
+
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
@@ -73,7 +73,29 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
+  <ul class="biblist">
+      <li ><p>
+      <a href="https://ch.linkedin.com/in/sergicaelles" target="_blank">S. Caelles</a>, <a href="http://www.vision.ee.ethz.ch/~kmaninis" target="_blank">K.K. Maninis</a>, J. Pont-Tuset, <a href="https://lealtaixe.github.io" target="_blank">L. Leal-Taixé</a>, 
+      <a href="http://vision.in.tum.de/members/cremers" target="_blank">D. Cremers</a>, and <a href="http://www.vision.ee.ethz.ch/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
+      <br><b>Video Object Segmentation Without Temporal Information</b><br>
+      <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2018.
+      <br />
+      <a href="javascript:toggleBibtex('Maninis2018b')">[BibTeX]</a>
+      <a href="https://arxiv.org/pdf/1709.06031" target="_blank">[PDF]</a> <a href="http://www.vision.ee.ethz.ch/~cvlsegmentation/osvos-s/"  target="_blank">[Project Page]</a>
+      </p>
+      <div id="bib_Maninis2018b" class="bibtex noshow">
+      <pre>
+      @Article{Maninis2018b,
+        author = {K.K. Maninis and S. Caelles and Y. Chen and J. Pont-Tuset and L. Leal-Taix\'e and D. Cremers and L. Van Gool},
+        title = {Video Object Segmentation Without Temporal Information},
+        journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+        year = {2018}
+      }
+      </pre>
+      </div>
+      </li>
 
+      </ul>
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
