@@ -10,47 +10,7 @@ You can also browse my <a href="https://scholar.google.es/citations?user=aYO_0vg
 {% include base_path %}
 
 
-<style>
-    /*********************************
-     The list of publication items
-     *********************************/
-/* The list of items */
-.biblist { }
-/* The item */
-.biblist li { }
-/* You can define custom styles for plstyle field here. */
 
-
-/*************************************
- The box that contain BibTeX code
- *************************************/
-div.noshow { display: none; }
-div.bibtex {
-	margin-right: 0%;
-	margin-top: 1.2em;
-	margin-bottom: 1em;
-	border: 1px solid silver;
-	padding: 0em 1em;
-	background: #ffffee;
-}
-div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
-<script type="text/javascript">   
-     <!--
-    // Toggle Display of BibTeX
-    function toggleBibtex(articleid) {
-        var bib = document.getElementById('bib_'+articleid);
-        if (bib) {
-            if(bib.className.indexOf('bibtex') != -1) {
-                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
-            }
-        } else {
-            return;
-        }
-    }
-  -->
-    </script>
-
-<!--
 <ul class="biblist">
 <li ><p>
 <a href="https://ch.linkedin.com/in/sergicaelles" target="_blank">S. Caelles</a>, <a href="http://www.vision.ee.ethz.ch/~kmaninis" target="_blank">K.K. Maninis</a>, J. Pont-Tuset, <a href="https://lealtaixe.github.io" target="_blank">L. Leal-Taixé</a>, 
@@ -74,7 +34,7 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;
 </li>
 
 </ul>
--->
+
 
 <h3 style="margin-bottom:0px;padding-top:10px;">Top-Tier Journal Publications</h3>
 
