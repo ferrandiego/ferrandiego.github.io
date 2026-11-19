@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ferran Diego's site"
+title                    : "Ferran Diego"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Associate Researcher at Telefonica Research"
+name                     : &name "Ferran Diego"
+description              : &description "Research Scientist on Machine Learning and Deep Learning at Telefónica Research"
 url                      : https://ferrandiego.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ferrandiego.github.io"
+repository               : "ferrandiego/ferrandiego.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ferran Diego"
   avatar           : "avatar.jpg"
-  bio              : "Research Scientist on Machine Learning and Deep Learning at Telefonica Research"
+  bio              : "Research Scientist on Machine Learning and Deep Learning at Telefónica Research"
   location         : "Barcelona, Spain"
   employer         : "Telefonica Research"
   pubmed           : 
@@ -256,14 +256,13 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Madrid # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
 # mimic GitHub Pages with --safe

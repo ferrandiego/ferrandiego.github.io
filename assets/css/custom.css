@@ -1,0 +1,406 @@
+/* ==========================================================================
+   Ferran Diego — modern overlay
+   Overrides the AcademicPages (Minimal Mistakes "so-simple") theme.
+   Loaded after main.css, so it wins on equal specificity.
+   ========================================================================== */
+
+:root {
+  --fd-accent:        #0f62fe;
+  --fd-accent-dark:   #0043ce;
+  --fd-ink:           #24292f;
+  --fd-ink-soft:      #57606a;
+  --fd-ink-faint:     #8b949e;
+  --fd-bg:            #ffffff;
+  --fd-bg-soft:       #f6f8fa;
+  --fd-border:        #d8dee4;
+  --fd-card:          #fafbfc;
+  --fd-radius:        10px;
+  --fd-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+             "Helvetica Neue", Arial, sans-serif;
+  --fd-mono: "SF Mono", SFMono-Regular, ui-monospace, "Cascadia Code",
+             Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+/* ---- Base typography ------------------------------------------------------ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fd-font);
+  color: var(--fd-ink);
+  background: var(--fd-bg);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--fd-accent);
+  text-decoration: none;
+  transition: color .12s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--fd-accent-dark);
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fd-font);
+  font-weight: 700;
+  color: var(--fd-ink);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+h2 { font-size: 1.55em; margin-top: 2.2em; margin-bottom: .6em; }
+h3 { font-size: 1.2em;  margin-top: 1.8em; margin-bottom: .5em; }
+
+code, pre, kbd {
+  font-family: var(--fd-mono);
+}
+
+/* ---- Masthead (top bar) ---------------------------------------------------- */
+
+.masthead {
+  background: var(--fd-bg);
+  border-bottom: 1px solid var(--fd-border);
+}
+
+.masthead .site-title,
+.masthead .site-subtitle {
+  color: var(--fd-ink);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.masthead .site-title:hover {
+  color: var(--fd-ink);
+  text-decoration: none;
+}
+
+.masthead a {
+  color: var(--fd-ink-soft);
+  font-weight: 500;
+}
+
+.masthead a:hover {
+  color: var(--fd-accent);
+  text-decoration: none;
+}
+
+/* ---- Layout ----------------------------------------------------------------- */
+
+.page__inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.4em;
+}
+
+.page__content {
+  padding-top: 1.6em;
+}
+
+.page__title {
+  font-size: 2.1em;
+  padding-bottom: .35em;
+  margin-bottom: .9em;
+  border-bottom: 1px solid var(--fd-border);
+  position: relative;
+}
+
+.page__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 64px;
+  height: 3px;
+  background: var(--fd-accent);
+  border-radius: 2px;
+}
+
+.page__content ul,
+.page__content ol {
+  padding-left: 1.4em;
+}
+
+.page__content li {
+  margin-bottom: .35em;
+}
+
+.page__content hr {
+  border: none;
+  border-top: 1px solid var(--fd-border);
+  margin: 2.2em 0;
+}
+
+/* ---- Sidebar / author profile ---------------------------------------------- */
+
+.sidebar {
+  background: var(--fd-bg);
+  border-right: 1px solid var(--fd-border);
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid var(--fd-bg-soft);
+  box-shadow: 0 0 0 1px var(--fd-border), 0 4px 14px rgba(15, 98, 254, .10);
+}
+
+.author__name {
+  font-size: 1.35em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: .2em;
+}
+
+.author__bio {
+  color: var(--fd-ink-soft);
+  font-size: .95em;
+  line-height: 1.5;
+}
+
+.author__urls-wrapper .btn {
+  background: var(--fd-accent);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: .45em 1.2em;
+  font-size: .85em;
+}
+
+.author__urls-wrapper .btn:hover {
+  background: var(--fd-accent-dark);
+  color: #fff;
+}
+
+.social-icons li {
+  font-size: .92em;
+  color: var(--fd-ink-soft);
+}
+
+.social-icons a {
+  color: var(--fd-ink-soft);
+}
+
+.social-icons a:hover {
+  color: var(--fd-accent);
+  text-decoration: none;
+}
+
+/* ---- Publications ------------------------------------------------------------ */
+
+h3.pub-section {
+  margin-top: 2.4em;
+  padding-left: .7em;
+  border-left: 4px solid var(--fd-accent);
+  font-size: 1.25em;
+}
+
+ul.biblist {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 2em;
+}
+
+ul.biblist li.pub-item {
+  background: var(--fd-card);
+  border: 1px solid var(--fd-border);
+  border-left: 3px solid var(--fd-accent);
+  border-radius: var(--fd-radius);
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+
+ul.biblist li.pub-item:hover {
+  box-shadow: 0 4px 16px rgba(15, 98, 254, .10);
+  transform: translateY(-1px);
+}
+
+.pub-item p {
+  margin: 0 0 .45em;
+}
+
+.pub-item .pub-authors {
+  color: var(--fd-ink-soft);
+  font-size: .93em;
+  line-height: 1.55;
+}
+
+.pub-item .pub-authors b {
+  color: var(--fd-ink);
+  font-weight: 600;
+}
+
+.pub-item .pub-title b {
+  font-weight: 650;
+  color: var(--fd-ink);
+}
+
+.pub-item .pub-title i {
+  color: var(--fd-ink-soft);
+}
+
+.pub-item .pub-links {
+  margin-top: .5em;
+}
+
+.pub-item .pub-links a {
+  font-size: .82em;
+  font-weight: 600;
+  margin-right: 14px;
+  white-space: nowrap;
+}
+
+/* BibTeX panels — dark code look */
+div.bibtex {
+  margin: 12px 0 4px;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 12px 16px;
+  overflow-x: auto;
+}
+
+div.bibtex pre {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+  background: transparent;
+  color: inherit;
+  white-space: pre;
+}
+
+/* ---- News timeline (home page) ----------------------------------------------- */
+
+ul.news-timeline {
+  list-style: none;
+  margin: 1.2em 0;
+  padding: 0 0 0 1.9em;
+  position: relative;
+}
+
+ul.news-timeline::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 4px;
+  bottom: 4px;
+  width: 2px;
+  background: var(--fd-border);
+}
+
+ul.news-timeline li {
+  position: relative;
+  padding-bottom: 1.15em;
+}
+
+ul.news-timeline li::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.9em + 2px);
+  top: .45em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--fd-accent);
+  box-shadow: 0 0 0 3px var(--fd-bg), 0 0 0 4px var(--fd-border);
+}
+
+ul.news-timeline .news-date {
+  font-weight: 700;
+  color: var(--fd-ink);
+}
+
+/* ---- CV table (Misc page) ------------------------------------------------------- */
+
+table.cv-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2em 0;
+  font-size: .95em;
+}
+
+table.cv-table th {
+  text-align: left;
+  font-weight: 700;
+  color: var(--fd-ink);
+  padding: .5em .9em;
+  border-bottom: 2px solid var(--fd-border);
+  white-space: nowrap;
+  width: 130px;
+}
+
+table.cv-table td {
+  padding: .6em .9em;
+  border-bottom: 1px solid var(--fd-border);
+  vertical-align: top;
+}
+
+table.cv-table tr:last-child td {
+  border-bottom: none;
+}
+
+table.cv-table td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--fd-ink);
+}
+
+table.cv-table tr:hover td {
+  background: var(--fd-bg-soft);
+}
+
+/* ---- Footer ------------------------------------------------------------------------ */
+
+.page__footer {
+  background: var(--fd-bg-soft);
+  border-top: 1px solid var(--fd-border);
+  padding: 1.2em 0;
+  margin-top: 3em;
+}
+
+.page__footer-copyright,
+.page__footer-follow {
+  font-size: .85em;
+  color: var(--fd-ink-faint);
+}
+
+.page__footer a {
+  color: var(--fd-ink-soft);
+}
+
+.page__footer a:hover {
+  color: var(--fd-accent);
+}
+
+/* ---- Misc ----------------------------------------------------------------------------- */
+
+.btn,
+button.btn {
+  border-radius: 999px;
+  font-family: var(--fd-font);
+  font-weight: 600;
+}
+
+/* Keep images contained */
+.page__content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Small screens: stack nicely */
+@media (max-width: 640px) {
+  .page__title { font-size: 1.7em; }
+  ul.biblist li.pub-item { padding: 12px 14px; }
+  .pub-item .pub-links a { margin-right: 10px; }
+  table.cv-table th,
+  table.cv-table td:first-child { width: 96px; font-size: .85em; }
+}

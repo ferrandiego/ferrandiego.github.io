@@ -3,683 +3,865 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+{% include base_path %}
 
 You can also browse my <a href="https://scholar.google.es/citations?user=aYO_0vgAAAAJ">Google Scholar profile</a>.
 
 
-{% include base_path %}
-
-
 <style>
-    /*********************************
-     The list of publication items
-     *********************************/
-/* The list of items */
-.biblist { }
-/* The item */
-.biblist li { }
-/* You can define custom styles for plstyle field here. */
-
-
-/*************************************
- The box that contain BibTeX code
- *************************************/
+    /*************************************
+     The box that contains BibTeX code
+     *************************************/
 div.noshow { display: none; }
-div.bibtex {
-	margin-right: 0%;
-	margin-top: 1.2em;
-	margin-bottom: 1em;
-	border: 1px solid silver;
-	padding: 0em 1em;
-	background: #ffffee;
-}
-div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
-<script type="text/javascript">   
-     <!--
-    // Toggle Display of BibTeX
+</style>
+<script type="text/javascript">
+    // Toggle display of BibTeX
     function toggleBibtex(articleid) {
-        var bib = document.getElementById('bib_'+articleid);
+        var bib = document.getElementById('bib_' + articleid);
         if (bib) {
-            if(bib.className.indexOf('bibtex') != -1) {
-                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+            if (bib.className.indexOf('bibtex') != -1) {
+                bib.className.indexOf('noshow') == -1 ? bib.className = 'bibtex noshow' : bib.className = 'bibtex';
             }
         } else {
             return;
         }
     }
-  -->
-    </script>
+</script>
 
-<!--
+<h3 class="pub-section">Journals</h3>
+
 <ul class="biblist">
-<li ><p>
-<a href="https://ch.linkedin.com/in/sergicaelles" target="_blank">S. Caelles</a>, <a href="http://www.vision.ee.ethz.ch/~kmaninis" target="_blank">K.K. Maninis</a>, J. Pont-Tuset, <a href="https://lealtaixe.github.io" target="_blank">L. Leal-Taixé</a>, 
-<a href="http://vision.in.tum.de/members/cremers" target="_blank">D. Cremers</a>, and <a href="http://www.vision.ee.ethz.ch/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
-<br><b>Video Object Segmentation Without Temporal Information</b><br>
-<i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2018.
-<br />
-<a href="javascript:toggleBibtex('Maninis2018b')">[BibTeX]</a>
-<a href="https://arxiv.org/pdf/1709.06031" target="_blank">[PDF]</a> <a href="http://www.vision.ee.ethz.ch/~cvlsegmentation/osvos-s/"  target="_blank">[Project Page]</a>
-</p>
-<div id="bib_Maninis2018b" class="bibtex noshow">
-<pre>
-@Article{Maninis2018b,
-  author = {K.K. Maninis and S. Caelles and Y. Chen and J. Pont-Tuset and L. Leal-Taix\'e and D. Cremers and L. Van Gool},
-  title = {Video Object Segmentation Without Temporal Information},
-  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-  year = {2018}
+
+<!-- Item: theodoropoulos2023a -->
+<li class="pub-item">
+  <p class="pub-authors">T. Theodoropoulos, L. Rosa, C. Benzaid, P. Gray, E. Marin, A. Makris, L. Cordeiro, <b>F. Diego</b>, P. Sorokin, M. Di Girolamo, P. Barone, T. Taleb and K. Tserpes.</p>
+  <p class="pub-title"><b>Security in Cloud-Native Services: A Survey</b><br>
+  <i>Journal of Cybersecurity and Privacy</i>, 3(4), 758–793, 2023.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('theodoropoulos2023a')">[BibTeX]</a>
+    <a href="https://doi.org/10.3390/jcp3040034" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_theodoropoulos2023a" class="bibtex noshow">
+  <pre>@article{theodoropoulos2023a,
+  author  = {Theodoropoulos, Theodoros and Rosa, Luis and Benzaid, Chafika and Gray, Peter and Marin, Eduard and Makris, Antonios and Cordeiro, Luis and Diego, Ferran and Sorokin, Pavel and Di Girolamo, Marco and Barone, Paolo and Taleb, Tarik and Tserpes, Konstantinos},
+  title   = {Security in Cloud-Native Services: A Survey},
+  journal = {Journal of Cybersecurity and Privacy},
+  volume  = {3},
+  number  = {4},
+  pages   = {758--793},
+  year    = {2023},
+  doi     = {10.3390/jcp3040034}
 }
-</pre>
-</div>
+  </pre>
+  </div>
+</li>
+
+<!-- Item: milbich2020a -->
+<li class="pub-item">
+  <p class="pub-authors">T. Milbich, O. Ghori, <b>F. Diego</b> and B. Ommer.</p>
+  <p class="pub-title"><b>Unsupervised Representation Learning by Discovering Reliable Image Relations</b><br>
+  <i>Pattern Recognition</i>, 102, 107107, 2020.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('milbich2020a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1016/j.patcog.2019.107107" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_milbich2020a" class="bibtex noshow">
+  <pre>@article{milbich2020a,
+  author  = {Milbich, T. and Ghori, Omer and Diego, Ferran and Ommer, Bernhard},
+  title   = {Unsupervised Representation Learning by Discovering Reliable Image Relations},
+  journal = {Pattern Recognition},
+  volume  = {102},
+  pages   = {107107},
+  year    = {2020},
+  doi     = {10.1016/j.patcog.2019.107107}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: diego2013tmm -->
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b>, J. Serrat and A. M. López.</p>
+  <p class="pub-title"><b>Joint Spatio-Temporal Alignment of Sequences</b><br>
+  <i>IEEE Trans. on Multimedia (TMM)</i>, 15(6), 1377–1387, 2013.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2013tmm')">[BibTeX]</a>
+    <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/348209579/diego_12_joint.pdf" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://hciweb.iwr.uni-heidelberg.de/Staff/fdiego/JointVA" target="_blank" rel="noopener">[Project Page]</a>
+  </p>
+  <div id="bib_diego2013tmm" class="bibtex noshow">
+  <pre>@article{diego2013tmm,
+  author  = {Diego, Ferran and Serrat, Joan and L\'opez, Antonio M.},
+  title   = {Joint Spatio-Temporal Alignment of Sequences},
+  journal = {IEEE Transactions on Multimedia},
+  volume  = {15},
+  number  = {6},
+  pages   = {1377--1387},
+  year    = {2013}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: alvarez2012a -->
+<li class="pub-item">
+  <p class="pub-authors">J. M. Álvarez, T. Gevers, <b>F. Diego</b> and A. M. López.</p>
+  <p class="pub-title"><b>Road Geometry Classification by Adaptive Shape Models</b><br>
+  <i>IEEE Trans. on Intelligent Transportation Systems (T-ITS)</i>, 14(1), 459–468, 2012.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('alvarez2012a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1109/TITS.2012.2221088" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_alvarez2012a" class="bibtex noshow">
+  <pre>@article{alvarez2012a,
+  author  = {Alvare\'iz, Jose M. and Gevers, Theo and Diego, Ferran and L\'opez, Antonio M.},
+  title   = {Road Geometry Classification by Adaptive Shape Models},
+  journal = {IEEE Transactions on Intelligent Transportation Systems},
+  volume  = {14},
+  number  = {1},
+  pages   = {459--468},
+  year    = {2012},
+  doi     = {10.1109/TITS.2012.2221088}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: diego2011a -->
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b>, D. Ponsa, J. Serrat and A. M. López.</p>
+  <p class="pub-title"><b>Video Alignment for Change Detection</b><br>
+  <i>IEEE Trans. on Image Processing (TIP)</i>, 20(7), 1858–1869, 2011.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2011a')">[BibTeX]</a>
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5648349" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://hciweb.iwr.uni-heidelberg.de/Staff/fdiego/VideoAlignemnt" target="_blank" rel="noopener">[Project Page]</a>
+  </p>
+  <div id="bib_diego2011a" class="bibtex noshow">
+  <pre>@article{diego2011a,
+  author  = {Diego, Ferran and Ponsa, Daniel and Serrat, Joan and L\'opez, Antonio M.},
+  title   = {Video Alignment for Change Detection},
+  journal = {IEEE Transactions on Image Processing},
+  volume  = {20},
+  number  = {7},
+  pages   = {1858--1869},
+  year    = {2011}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: serrat2008a -->
+<li class="pub-item">
+  <p class="pub-authors">J. Serrat, <b>F. Diego</b>, F. Lumbreras, J. M. Álvarez, A. M. López and C. Elvira.</p>
+  <p class="pub-title"><b>Dynamic Comparison of Headlights</b><br>
+  <i>Proc. Inst. Mech. Eng. Part D: J. Automobile Engineering</i>, 222(5), 643–656, 2008.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('serrat2008a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1243/09544070jauto655" target="_blank" rel="noopener">[DOI]</a>
+  </p>
+  <div id="bib_serrat2008a" class="bibtex noshow">
+  <pre>@article{serrat2008a,
+  author  = {Serrat, Joan and Diego, Ferran and Lumbreras, Felipe and Alvare\'iz, Jose M. and L\'opez, Antonio M. and Elvira, Concepci\'on},
+  title   = {Dynamic Comparison of Headlights},
+  journal = {Proceedings of the Institution of Mechanical Engineers, Part D: Journal of Automobile Engineering},
+  volume  = {222},
+  number  = {5},
+  pages   = {643--656},
+  year    = {2008},
+  doi     = {10.1243/09544070jauto655}
+}
+  </pre>
+  </div>
 </li>
 
 </ul>
--->
 
-<h3 style="margin-bottom:0px;padding-top:10px;">Top-Tier Journal Publications</h3>
-
-<ul class="biblist">
-
-<!-- Item: diego2013a -->
-<li ><p>
-F. Diego, J. Serrat and A. M. López.
-<br><b>Joint Spatio--Temporal Alignment of Sequences</b><br>
-<i>IEEE Trans. on Multimedia (T-MM)</i>, 2013.
-<br />
-<a href="javascript:toggleBibtex('diego2013a')">[BibTeX]</a> <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/348209579/diego_12_joint.pdf" target="_blank">[PDF]</a>  <a href="https://hci.iwr.uni-heidelberg.de/Staff/fdiego/JointVA"  target="_blank">[Project Page]</a>
-</p>
-<div id="bib_diego2013a" class="bibtex noshow">
-<pre>
-@Article{diego2013a,
-  author = {F. Diego and J. Serrat and A. M. L\'opez},
-  title = {Joint Spatio--Temporal Alignment of Sequences},
-  journal = {IEEE Trans. on Multimedia (T-MM)},
-  year = {2013}
-}
-</pre>
-</div>
-</li>
-
-<!-- Item: alvarez2012a-->
-<li ><p>
-J. M. Alvarez, T. Gevers, F. Diego and A. M. López.
-<br><b>Road Geometry Classification by Adaptive Shape Models</b><br>
-<i>IEEE Trans. on Intelligent Transportation Systems (T-ITS)</i>, 2012.
-<br />
-<a href="javascript:toggleBibtex('alvarez2012a')">[BibTeX]</a> <a href="http://dx.doi.org/10.1109/TITS.2012.2221088" target="_blank">[PDF]</a>
-</p>
-<div id="bib_alvarez2012a" class="bibtex noshow">
-<pre>
-@Article{alvarez2012a,
-  author = {J. M. Alvarez and T. Gevers and F. Diego and A. M. L\'opez},
-  title = {Road Geometry Classification by Adaptive Shape Models},
-  journal = {IEEE Trans. on Intelligent Transportation Systems (T-ITS)},
-  year = {2012}
-}
-</pre>
-</div>
-</li>
-
-
-<!-- Item: diego2011a-->
-<li ><p>
-F. Diego, D. Ponsa, J. Serrat and A. M. López.
-<br><b>Video alignment for change detection</b><br>
-<i>IEEE Trans. on Image Processing (TIP)</i>, 2011.
-<br />
-<a href="javascript:toggleBibtex('diego2011a')">[BibTeX]</a> <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5648349" target="_blank">[PDF]</a>  <a href="https://hci.iwr.uni-heidelberg.de/Staff/fdiego/VideoAlignemnt"  target="_blank">[Project Page]</a>
-</p>
-<div id="bib_diego2011a" class="bibtex noshow">
-<pre>
-@Article{diego2012a,
-  author = {F. Diego and D. Ponsa and J. Serrat and A. M. L\'opez},
-  title = {Video alignment for change detection},
-  journal = {IEEE Trans. on Image Processing (TIP)},
-  year = {2011}
-}
-</pre>
-</div>
-</li>
-
-
-<!-- Item: serrat207a-->
-<li ><p>
-J. Serrat, F. Diego, F. Lumbreras, Jose M. Álvarez, A. M. L\ópez and C. Elvira.
-<br><b>Dynamic comparison of headlights</b><br>
-<i>IEEE Trans. on Image Processing (TIP)</i>, 2011.
-<br />
-<a href="javascript:toggleBibtex('serrat2007a')">[BibTeX]</a> <a href="http://www.cvc.uab.es/~joans/journals/08\%20JAUTO\%20Dynamic\%20comparison\%20of\%20headlights.pdf" target="_blank">[PDF]</a>
-</p>
-<div id="bib_serrat2007a" class="bibtex noshow">
-<pre>
-@Article{serrat2007a,
-  author = {J. Serrat and F. Diego and F. Lumbreras and Jose M. \'Alvarez and A. M. L\ópez and C. Elvira},
-  title = {Dynamic comparison of headlights},
-  journal = {Journal of Automobile Engineering, Proc. of the
-Institution of Mechanical Engineers, Part D, 2007.},
-  year = {2007}
-}
-</pre>
-</div>
-</li>
-
-</ul>
-
-<h3 style="margin-bottom:0px;padding-top:10px;">Conferences</h3>
+<h3 class="pub-section">Conferences and Workshops</h3>
 
 
 <ul class="biblist">
 
-<!-- Item: Mackowiak2018a -->
-<li ><p>
-R. Mackowiak, P. Lenz, O. Ghori, F. Diego, O. Lange and C Rother.
-<br><b>Cereals-cost-effective region-based active learning for semantic segmentation</b><br>
-<i>British Machine Vision Conference (BMVC) </i>, 2018.
-<br />
-<a href="javascript:toggleBibtex('Mackowiak2018a')">[BibTeX]</a> <a href="https://arxiv.org/abs/1810.09726" target="_blank">[PDF]</a>
-</p>
-<div id="bib_Mackowiak2018a" class="bibtex noshow">
-<pre>
-@Article{Mackowiak2018a,
-  author = {R. Mackowiak and P. Lenz and O. Ghori and F. Diego and O. Lange and C. Rother},
-  title = {Cereals-cost-effective region-based active learning for semantic segmentation},
-  journal = {British Machine Vision Conference (BMVC)},
-  year = {2018}
+<!-- Item: alvarez2025a -->
+<li class="pub-item">
+  <p class="pub-authors">F. Álvarez, <b>F. Diego</b>, M. Rozanska, R. Sanfeliu, Y. Verginadis and G. Horn.</p>
+  <p class="pub-title"><b>RemWoW: Resource Efficient Management of Workloads of Repeated Workflows</b><br>
+  <i>MECC '25: Proceedings of the 2nd International Workshop on MetaOS for the Cloud-Edge-IoT Continuum</i> (co-located with EuroSys 2025), pp. 66–72, 2025.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('alvarez2025a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1145/3721889.3721931" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_alvarez2025a" class="bibtex noshow">
+  <pre>@inproceedings{alvarez2025a,
+  author    = {Alvare\'iz, Francisco and Diego, Ferran and Rozanska, Marta and Sanfeliu, Robert and Verginadis, Yiannis and Horn, Geir},
+  title     = {RemWoW: Resource Efficient Management of Workloads of Repeated Workflows},
+  booktitle = {Proceedings of the 2nd International Workshop on MetaOS for the Cloud-Edge-IoT Continuum (MECC '25), co-located with EuroSys 2025},
+  pages     = {66--72},
+  year      = {2025},
+  doi       = {10.1145/3721889.3721931}
 }
-</pre>
-</div>
+  </pre>
+  </div>
+</li>
+
+<!-- Item: tura2021a -->
+<li class="pub-item">
+  <p class="pub-authors">B. Tura, S. Escuder, <b>F. Diego</b>, C. Segura and J. Luque.</p>
+  <p class="pub-title"><b>Efficient Keyword Spotting by Capturing Long-Range Interactions with Temporal Lambda Networks</b><br>
+  <i>IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)</i>, pp. 146–153, 2021.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('tura2021a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1109/ASRU51503.2021.9687932" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://arxiv.org/abs/2104.08086" target="_blank" rel="noopener">[arXiv]</a>
+  </p>
+  <div id="bib_tura2021a" class="bibtex noshow">
+  <pre>@inproceedings{tura2021a,
+  author    = {Tura, Biel and Escuder, Santiago and Diego, Ferran and Segura, Carlos and Luque, Jordi},
+  title     = {Efficient Keyword Spotting by Capturing Long-Range Interactions with Temporal Lambda Networks},
+  booktitle = {2021 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},
+  pages     = {146--153},
+  year      = {2021},
+  doi       = {10.1109/ASRU51503.2021.9687932}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: valenzuela2021a -->
+<li class="pub-item">
+  <p class="pub-authors">A. Valenzuela, C. Segura, <b>F. Diego</b> and V. Gómez.</p>
+  <p class="pub-title"><b>Expression Transfer Using Flow-Based Generative Models</b><br>
+  <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops</i> (Workshop on Media Forensics), pp. 1023–1031, 2021.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('valenzuela2021a')">[BibTeX]</a>
+    <a href="https://openaccess.thecvf.com/content/CVPR2021W/WMF/papers/Valenzuela_Expression_Transfer_Using_Flow-Based_Generative_Models_CVPRW_2021_paper.pdf" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_valenzuela2021a" class="bibtex noshow">
+  <pre>@inproceedings{valenzuela2021a,
+  author    = {Valenzuela, Andrea and Segura, Carlos and Diego, Ferran and G\'omez, Vicen\c{c}},
+  title     = {Expression Transfer Using Flow-Based Generative Models},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  pages     = {1023--1031},
+  year      = {2021},
+  doi       = {10.1109/CVPRW53098.2021.00113}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: korontanis2021a -->
+<li class="pub-item">
+  <p class="pub-authors">I. Korontanis, K. Tserpes, M. Pateraki, L. Blasi, J. Violos, <b>F. Diego</b>, E. Marin, N. Kourtellis, M. Coppola, E. Carlini, Z. Ledwoń, P. Tarkowski, T. Loven, Y. González Rozas, M. Kentros, M. Dodis and P. Dazzi.</p>
+  <p class="pub-title"><b>Inter-Operability and Orchestration in Heterogeneous Cloud/Edge Resources: The ACCORDION Vision</b><br>
+  <i>FRAME '21: Proceedings of the 1st Workshop on Flexible Resource and Application Management on the Edge</i> (co-located with HPDC 2021), pp. 9–14, 2021.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('korontanis2021a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1145/3452369.3463816" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_korontanis2021a" class="bibtex noshow">
+  <pre>@inproceedings{korontanis2021a,
+  author    = {Korontanis, Ioannis and Tserpes, Konstantinos and Pateraki, Maria and Blasi, Lorenzo and Violos, John and Diego, Ferran and Marin, Eduard and Kourtellis, Nicolas and Coppola, Massimo and Carlini, Emanuele and Ledwo\'n, Zbyszek and Tarkowski, Przemyslaw and Loven, Thomas and Gonz\'alez Rozas, Yago and Kentros, Mike and Dodis, Michael and Dazzi, Patrizio},
+  title     = {Inter-Operability and Orchestration in Heterogeneous Cloud/Edge Resources: The ACCORDION Vision},
+  booktitle = {Proceedings of the 1st Workshop on Flexible Resource and Application Management on the Edge (FRAME '21), co-located with HPDC 2021},
+  pages     = {9--14},
+  year      = {2021},
+  doi       = {10.1145/3452369.3463816}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: oriol2020a -->
+<li class="pub-item">
+  <p class="pub-authors">B. Oriol, J. Luque, <b>F. Diego</b> and X. Giro-i-Nieto.</p>
+  <p class="pub-title"><b>Transcription-Enriched Joint Embeddings for Spoken Descriptions of Images and Videos</b><br>
+  <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops</i> (Workshop on Egocentric Perception, Interaction and Computing), 2020.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('oriol2020a')">[BibTeX]</a>
+    <a href="https://arxiv.org/abs/2006.00785" target="_blank" rel="noopener">[arXiv]</a>
+  </p>
+  <div id="bib_oriol2020a" class="bibtex noshow">
+  <pre>@inproceedings{oriol2020a,
+  author    = {Oriol, Benet and Luque, Jordi and Diego, Ferran and Giro-i-Nieto, Xavier},
+  title     = {Transcription-Enriched Joint Embeddings for Spoken Descriptions of Images and Videos},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  year      = {2020}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: mackowiak2018a -->
+<li class="pub-item">
+  <p class="pub-authors">R. Mackowiak, P. Lenz, O. Ghori, <b>F. Diego</b>, O. Lange and C. Rother.</p>
+  <p class="pub-title"><b>Cereals-Cost-Effective Region-Based Active Learning for Semantic Segmentation</b><br>
+  <i>British Machine Vision Conference (BMVC)</i>, 2018.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('mackowiak2018a')">[BibTeX]</a>
+    <a href="https://arxiv.org/abs/1810.09726" target="_blank" rel="noopener">[arXiv]</a>
+  </p>
+  <div id="bib_mackowiak2018a" class="bibtex noshow">
+  <pre>@inproceedings{mackowiak2018a,
+  author    = {Mackowiak, Robin and Lenz, Peter and Ghori, Omer and Diego, Ferran and Lange, Otfried and Rother, Christian},
+  title     = {Cereals-Cost-Effective Region-Based Active Learning for Semantic Segmentation},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year      = {2018}
+}
+  </pre>
+  </div>
 </li>
 
 <!-- Item: ghori2018a -->
-<li ><p>
-O. Ghori, R. Mackowiak, M. Bautista, N. Beuter, L. Drumond, F. Diego and B. Ommer.
-<br><b>Learning to forecast pedestrian intention from pose dynamics</b><br>
-<i>IEEE Intelligent Vehicles Symposium (IV) </i>, 2018.
-<br />
-<a href="javascript:toggleBibtex('ghori2018a')">[BibTeX]</a>
-</p>
-<div id="bib_ghori2018a" class="bibtex noshow">
-<pre>
-@Article{ghori2018a,
-  author = {O. Ghori and R. Mackowiak and M. Bautista and N. Beuter and L. Drumond and F. Diego and B. Ommer},
-  title = {Learning to forecast pedestrian intention from pose dynamics},
-  journal = {IEEE Intelligent Vehicles Symposium (IV)},
-  year = {2018}
+<li class="pub-item">
+  <p class="pub-authors">O. Ghori, R. Mackowiak, M. Bautista, N. Beuter, L. Drumond, <b>F. Diego</b> and B. Ommer.</p>
+  <p class="pub-title"><b>Learning to Forecast Pedestrian Intention from Pose Dynamics</b><br>
+  <i>IEEE Intelligent Vehicles Symposium (IV)</i>, 2018.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('ghori2018a')">[BibTeX]</a>
+  </p>
+  <div id="bib_ghori2018a" class="bibtex noshow">
+  <pre>@inproceedings{ghori2018a,
+  author    = {Ghori, Omer and Mackowiak, Robin and Bautista, M. and Beuter, N. and Drumond, L. and Diego, Ferran and Ommer, Bernhard},
+  title     = {Learning to Forecast Pedestrian Intention from Pose Dynamics},
+  booktitle = {IEEE Intelligent Vehicles Symposium (IV)},
+  year      = {2018}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
 <!-- Item: peter2017a -->
-<li ><p>
-S. Peter, F. Diego, F.A. Hamprecht and B. Nadler.
-<br><b>Cost efficient gradient boosting</b><br>
-<i>Neural Information Processing Systems (NeurIPS) </i>, 2017.
-<br />
-<a href="javascript:toggleBibtex('peter2017a')">[BibTeX]</a> <a href="https://papers.nips.cc/paper/6753-cost-efficient-gradient-boosting" target="_blank">[PDF]</a> <a href="http://github.com/svenpeter42/LightGBM-CEGB" target="_blank">[Code]</a>
-</p>
-<div id="bib_peter2017a" class="bibtex noshow">
-<pre>
-@Article{peter2017a,
-  author = {S. Peter and F. Diego and F.A. Hamprecht and B. Nadler},
-  title = {Cost efficient gradient boosting},
-  journal = {Neural Information Processing Systems (NeurIPS)},
-  year = {2017}
+<li class="pub-item">
+  <p class="pub-authors">S. Peter, <b>F. Diego</b>, F. A. Hamprecht and B. Nadler.</p>
+  <p class="pub-title"><b>Cost Efficient Gradient Boosting</b><br>
+  <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2017.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('peter2017a')">[BibTeX]</a>
+    <a href="https://papers.nips.cc/paper/6753-cost-efficient-gradient-boosting" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://github.com/svenpeter42/LightGBM-CEGB" target="_blank" rel="noopener">[Code]</a>
+  </p>
+  <div id="bib_peter2017a" class="bibtex noshow">
+  <pre>@inproceedings{peter2017a,
+  author    = {Peter, Sven and Diego, Ferran and Hamprecht, Fred A. and Nadler, Benjamin},
+  title     = {Cost Efficient Gradient Boosting},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2017}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
 <!-- Item: peter2017b -->
-<li ><p>
-S. Peter, E. Kirschbaum, M. Both, L. Campbell, B. Harvey, C. Heins, D. Durstewitz, F. Diego and FA Hamprecht.
-<br><b>Sparse convolutional coding for neuronal assembly detection</b><br>
-<i>Neural Information Processing Systems (NeurIPS) </i>, 2017.
-<br />
-<a href="javascript:toggleBibtex('peter2017b')">[BibTeX]</a> <a href="https://papers.nips.cc/paper/6958-sparse-convolutional-coding-for-neuronal-assembly-detection" target="_blank">[PDF]</a>  <a href="https://github.com/sccfnad/Sparse-convolutional-coding-for-neuronal-assembly-detection" target="_blank">[Code]</a>
-</p>
-<div id="bib_peter2017b" class="bibtex noshow">
-<pre>
-@Article{peter2017b,
-  author = {S. Peter and E. Kirschbaum and M. Both and L. Campbell and B. Harvey and, C. Heins and D. Durstewitz and F. Diego and FA Hamprecht},
-  title = {Sparse convolutional coding for neuronal assembly detection},
-  journal = {Neural Information Processing Systems (NeurIPS)},
-  year = {2017}
+<li class="pub-item">
+  <p class="pub-authors">S. Peter, E. Kirschbaum, M. Both, L. Campbell, B. Harvey, C. Heins, D. Durstewitz, <b>F. Diego</b> and F. A. Hamprecht.</p>
+  <p class="pub-title"><b>Sparse Convolutional Coding for Neuronal Assembly Detection</b><br>
+  <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2017.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('peter2017b')">[BibTeX]</a>
+    <a href="https://papers.nips.cc/paper/6958-sparse-convolutional-coding-for-neuronal-assembly-detection" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://github.com/sccfnad/Sparse-convolutional-coding-for-neuronal-assembly-detection" target="_blank" rel="noopener">[Code]</a>
+  </p>
+  <div id="bib_peter2017b" class="bibtex noshow">
+  <pre>@inproceedings{peter2017b,
+  author    = {Peter, Sven and Kirschbaum, E. and Both, Michael and Campbell, L. and Harvey, Ben and Heins, C. and Durstewitz, Daniel and Diego, Ferran and Hamprecht, Fred A.},
+  title     = {Sparse Convolutional Coding for Neuronal Assembly Detection},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2017}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
-
 
 <!-- Item: schiegg2016a -->
-<li ><p>
-M. Schiegg, F. Diego and F.A. Hamprecht.
-<br><b>Learning Diverse Models: The Coulomb Structured Support Vector Machine</b><br>
-<i>European Conference on Computer Vision (ECCV) </i>, 2016.
-<br />
-<a href="javascript:toggleBibtex('schiegg2016a')">[BibTeX]</a> <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/53208582/schiegg_16_learning.pdf" target="_blank">[PDF]</a>  <a href="https://github.com/martinsch/coulomb_ssvm" target="_blank">[Code]</a>
-</p>
-<div id="bib_schiegg2016a" class="bibtex noshow">
-<pre>
-@Article{schiegg2016a,
-  author = {M. Schiegg and F. Diego and F.A. Hamprecht},
-  title = {Learning Diverse Models: The Coulomb Structured Support Vector Machine},
-  journal = {European Conference on Computer Vision (ECCV)},
-  year = {2016}
+<li class="pub-item">
+  <p class="pub-authors">M. Schiegg, <b>F. Diego</b> and F. A. Hamprecht.</p>
+  <p class="pub-title"><b>Learning Diverse Models: The Coulomb Structured Support Vector Machine</b><br>
+  <i>European Conference on Computer Vision (ECCV)</i>, 2016.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('schiegg2016a')">[BibTeX]</a>
+    <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/53208582/schiegg_16_learning.pdf" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://github.com/martinsch/coulomb_ssvm" target="_blank" rel="noopener">[Code]</a>
+  </p>
+  <div id="bib_schiegg2016a" class="bibtex noshow">
+  <pre>@inproceedings{schiegg2016a,
+  author    = {Schiegg, Martin and Diego, Ferran and Hamprecht, Fred A.},
+  title     = {Learning Diverse Models: The Coulomb Structured Support Vector Machine},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2016}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-
 <!-- Item: kandemir2016a -->
-<li ><p>
-M. Kandemir,  M. Haussmann, F. Diego and V. Kumar,  J. van der Laak and  F.A. Hamprecht.
-<br><b>Variational weakly supervised Gaussian processes</b><br>
-<i>British Machine Vision Conference (BMVC) </i>, 2016.
-<br />
-<a href="javascript:toggleBibtex('kandemir2016a')">[BibTeX]</a> <a href="http://www.bmva.org/bmvc/2016/papers/paper071/paper071.pdf" target="_blank">[PDF]</a>  <a href="https://github.com/melihkandemir/vwsgp" target="_blank">[Code]</a>
-</p>
-<div id="bib_kandemir2016a" class="bibtex noshow">
-<pre>
-@Article{kandemir2016a,
-  author = {M. Kandemir and  M. Haussmann and F. Diego and V. Kumar and  J. {van der Laak} and  F.A. Hamprecht.},
-  title = {Variational weakly supervised Gaussian processes},
-  journal = {British Machine Vision Conference (BMVC)},
-  year = {2016}
+<li class="pub-item">
+  <p class="pub-authors">M. Kandemir, M. Haussmann, <b>F. Diego</b>, K. T. Rajamani, J. van der Laak and F. A. Hamprecht.</p>
+  <p class="pub-title"><b>Variational Weakly Supervised Gaussian Processes</b><br>
+  <i>British Machine Vision Conference (BMVC)</i>, 2016.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('kandemir2016a')">[BibTeX]</a>
+    <a href="http://www.bmva.org/bmvc/2016/papers/paper071/paper071.pdf" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://github.com/melihkandemir/vwsgp" target="_blank" rel="noopener">[Code]</a>
+  </p>
+  <div id="bib_kandemir2016a" class="bibtex noshow">
+  <pre>@inproceedings{kandemir2016a,
+  author    = {Kandemir, Melih and Haussmann, Manuel and Diego, Ferran and Rajamani, Kumar T. and van der Laak, Jeroen and Hamprecht, Fred A.},
+  title     = {Variational Weakly Supervised Gaussian Processes},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year      = {2016}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
 <!-- Item: diego2016a -->
-<li ><p>
-F. Diego and F.A. Hamprecht.
-<br><b>Structured Regression Gradient Boosting</b><br>
-<i>Computer Vision and Pattern Recognition (CVPR) </i>, 2016.
-<br />
-<a href="javascript:toggleBibtex('diego2016a')">[BibTeX]</a> <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/1037872734/diego_16_structured.pdf" target="_blank">[PDF]</a>  <a href="https://hciweb.iwr.uni-heidelberg.de/Staff/fdiego/SRGB" target="_blank">[Project]</a>
-</p>
-<div id="bib_diego2016a" class="bibtex noshow">
-<pre>
-@Article{diego2016a,
-  author = {F. Diego and  F.A. Hamprecht},
-  title = {Structured Regression Gradient Boosting},
-  journal = {Computer Vision and Pattern Recognition (CVPR)},
-  year = {2016}
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b> and F. A. Hamprecht.</p>
+  <p class="pub-title"><b>Structured Regression Gradient Boosting</b><br>
+  <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2016.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2016a')">[BibTeX]</a>
+    <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/1037872734/diego_16_structured.pdf" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://hciweb.iwr.uni-heidelberg.de/Staff/fdiego/SRGB" target="_blank" rel="noopener">[Project]</a>
+  </p>
+  <div id="bib_diego2016a" class="bibtex noshow">
+  <pre>@inproceedings{diego2016a,
+  author    = {Diego, Ferran and Hamprecht, Fred A.},
+  title     = {Structured Regression Gradient Boosting},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2016}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-
 <!-- Item: diego2014a -->
-<li ><p>
-F. Diego and F.A. Hamprecht.
-<br><b>Sparse Space-Time Deconvolution for Calcium Image Analysis</b><br>
-<i>Neural Information Processing Systems (NeurIPS) </i>, 2014.
-<br />
-<a href="javascript:toggleBibtex('diego2014a')">[BibTeX]</a> <a href="http://papers.nips.cc/paper/5342-sparse-space-time-deconvolution-for-calcium-image-analysis.pdf" target="_blank">[PDF]</a>
-</p>
-<div id="bib_diego2014a" class="bibtex noshow">
-<pre>
-@Article{diego2014a,
-  author = {F. Diego and  F.A. Hamprecht},
-  title = {Sparse Space-Time Deconvolution for Calcium Image Analysis},
-  journal = {Neural Information Processing Systems (NeurIPS)},
-  year = {2014}
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b> and F. A. Hamprecht.</p>
+  <p class="pub-title"><b>Sparse Space-Time Deconvolution for Calcium Image Analysis</b><br>
+  <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2014.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2014a')">[BibTeX]</a>
+    <a href="http://papers.nips.cc/paper/5342-sparse-space-time-deconvolution-for-calcium-image-analysis.pdf" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_diego2014a" class="bibtex noshow">
+  <pre>@inproceedings{diego2014a,
+  author    = {Diego, Ferran and Hamprecht, Fred A.},
+  title     = {Sparse Space-Time Deconvolution for Calcium Image Analysis},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2014}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
 <!-- Item: fiaschi2014a -->
-<li ><p>
-L. Fiaschi, F. Diego, K. Gregor, M. Schiegg, U. Koethe, M. Zlatic and F. A. Hamprecht.
-<br><b>Learning to disambiguate indistinguishable objects over time using weakly supervised structured learning</b><br>
-<i>Computer Vision and Pattern Recognition (CVPR) </i>, 2014.
-<br />
-<a href="javascript:toggleBibtex('fiaschi2014a')">[BibTeX]</a> <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/219478572/fiaschi_14_tracking.pdf" target="_blank">[PDF]</a>
-</p>
-<div id="bib_fiaschi2014a" class="bibtex noshow">
-<pre>
-@Article{fiaschi2014a,
-  author = {L. Fiaschi and F. Diego and K. Gregor and M. Schiegg and U. Koethe and M. Zlatic and F. A. Hamprecht},
-  title = {Learning to disambiguate indistinguishable objects over time using weakly supervised structured learning},
-  journal = {Computer Vision and Pattern Recognition (CVPR)},
-  year = {2014}
+<li class="pub-item">
+  <p class="pub-authors">L. Fiaschi, <b>F. Diego</b>, K. Gregor, M. Schiegg, U. Köthe, M. Zlatic and F. A. Hamprecht.</p>
+  <p class="pub-title"><b>Learning to Disambiguate Indistinguishable Objects Over Time Using Weakly Supervised Structured Learning</b><br>
+  <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2014.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('fiaschi2014a')">[BibTeX]</a>
+    <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/219478572/fiaschi_14_tracking.pdf" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_fiaschi2014a" class="bibtex noshow">
+  <pre>@inproceedings{fiaschi2014a,
+  author    = {Fiaschi, Luca and Diego, Ferran and Gregor, K. and Schiegg, Martin and K\"othe, Ullrich and Zlatic, Marta and Hamprecht, Fred A.},
+  title     = {Learning to Disambiguate Indistinguishable Objects Over Time Using Weakly Supervised Structured Learning},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2014}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-
-<!-- Item: diego2013a -->
-<li ><p>
-F. Diego and F.A. Hamprecht.
-<br><b>Learning Multi-Level Sparse Representation</b><br>
-<i>Neural Information Processing Systems (NeurIPS) </i>, 2013.
-<br />
-<a href="javascript:toggleBibtex('diego2013a')">[BibTeX]</a> <a href="http://papers.nips.cc/paper/5076-learning-multi-level-sparse-representations.pdf" target="_blank">[PDF]</a>
-</p>
-<div id="bib_diego2013a" class="bibtex noshow">
-<pre>
-@Article{diego2013a,
-  author = {F. Diego and  F.A. Hamprecht},
-  title = {Learning Multi-Level Sparse Representation},
-  journal = {Neural Information Processing Systems (NeurIPS)},
-  year = {2013}
+<!-- Item: diego2013sparse -->
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b> and F. A. Hamprecht.</p>
+  <p class="pub-title"><b>Learning Multi-Level Sparse Representations</b><br>
+  <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2013.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2013sparse')">[BibTeX]</a>
+    <a href="http://papers.nips.cc/paper/5076-learning-multi-level-sparse-representations.pdf" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_diego2013sparse" class="bibtex noshow">
+  <pre>@inproceedings{diego2013sparse,
+  author    = {Diego, Ferran and Hamprecht, Fred A.},
+  title     = {Learning Multi-Level Sparse Representations},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2013}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
 <!-- Item: diego2013b -->
-<li ><p>
-F. Diego, S. Reichinnek, M. Both and F.A. Hamprecht.
-<br><b>Automated Identification of Neuronal Activity from Calcium Imaging by Sparse Dictionary Learning</b><br>
-<i>International Symposium on Biomedical Imaging (ISBI) </i>, 2013.
-<br />
-<a href="javascript:toggleBibtex('diego2013b')">[BibTeX]</a> <a href="http://129.206.117.249/sites/default/files/publications/files/1778693862/diego_13_automated.pdf" target="_blank">[PDF]</a> <a href="https://bitbucket.org/fdiego/adina-toolbox-v0.1/src/master/" target="_blank">[Code]</a> <a href="https://github.com/nanshe-org/nanshe" target="_blank">[Code2]</a>
-</p>
-<div id="bib_diego2013b" class="bibtex noshow">
-<pre>
-@Article{diego2013b,
-  author = {F. Diego and S. Reichinnek and M. Both and  F.A. Hamprecht},
-  title = {Automated Identification of Neuronal Activity from Calcium Imaging by Sparse Dictionary Learning},
-  journal = {International Symposium on Biomedical Imaging (ISBI)},
-  year = {2013}
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b>, S. Reichinnek, M. Both and F. A. Hamprecht.</p>
+  <p class="pub-title"><b>Automated Identification of Neuronal Activity from Calcium Imaging by Sparse Dictionary Learning</b><br>
+  <i>IEEE International Symposium on Biomedical Imaging (ISBI)</i>, 2013.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2013b')">[BibTeX]</a>
+    <a href="https://hci.iwr.uni-heidelberg.de/sites/default/files/publications/files/1778693862/diego_13_automated.pdf" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://github.com/nanshe-org/nanshe" target="_blank" rel="noopener">[Code]</a>
+  </p>
+  <div id="bib_diego2013b" class="bibtex noshow">
+  <pre>@inproceedings{diego2013b,
+  author    = {Diego, Ferran and Reichinnek, Sebastian and Both, Michael and Hamprecht, Fred A.},
+  title     = {Automated Identification of Neuronal Activity from Calcium Imaging by Sparse Dictionary Learning},
+  booktitle = {IEEE International Symposium on Biomedical Imaging (ISBI)},
+  year      = {2013}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
 <!-- Item: evangelidis2013a -->
-<li ><p>
-G.D. Evangelidis, F. Diego and R. Horaud.
-<br><b>From Video Matching to Video Grounding</b><br>
-<i>ICCV Workshop on Computer Vision in Vehicle Technology (ICCVW) </i>, 2013.
-<br />
-<a href="javascript:toggleBibtex('evangelidis2013a')">[BibTeX]</a> <a href="https://hal.inria.fr/hal-00872517/document" target="_blank">[PDF]</a> <a href="https://team.inria.fr/perception/research/cvvt2013/" target="_blank">[Project]</a>
-</p>
-<div id="bib_evangelidis2013a" class="bibtex noshow">
-<pre>
-@Article{evangelidis2013a,
-  author = {G.D. Evangelidis and F. Diego and R. Horaud},
-  title = {From Video Matching to Video Grounding},
-  journal = {ICCV Workshop on Computer Vision in Vehicle Technology (ICCVW)},
-  year = {2013}
+<li class="pub-item">
+  <p class="pub-authors">G. D. Evangelidis, <b>F. Diego</b> and R. Horaud.</p>
+  <p class="pub-title"><b>From Video Matching to Video Grounding</b><br>
+  <i>ICCV Workshop on Computer Vision in Vehicle Technology (ICCVW)</i>, 2013.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('evangelidis2013a')">[BibTeX]</a>
+    <a href="https://hal.inria.fr/hal-00872517/document" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://team.inria.fr/perception/research/cvvt2013/" target="_blank" rel="noopener">[Project]</a>
+  </p>
+  <div id="bib_evangelidis2013a" class="bibtex noshow">
+  <pre>@inproceedings{evangelidis2013a,
+  author    = {Evangelidis, Georgios D. and Diego, Ferran and Horaud, Radu},
+  title     = {From Video Matching to Video Grounding},
+  booktitle = {ICCV Workshop on Computer Vision in Vehicle Technology (ICCVW)},
+  year      = {2013}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-
 <!-- Item: diego2012a -->
-<li ><p>
-F. Diego and F.A. Hamprecht.
-<br><b>Learning Latent Structure for Identifying Neuronal Activity</b><br>
-<i>NeurIPS Workshop on Machine Learning and Interpretation in NeuroImaging</i>, 2012.
-<br />
-<a href="javascript:toggleBibtex('diego2012a')">[BibTeX]</a>
-</p>
-<div id="bib_diego2012a" class="bibtex noshow">
-<pre>
-@Article{diego2012a,
-  author = {F. Diego and  F.A. Hamprecht},
-  title = {Learning Latent Structure for Identifying Neuronal Activity},
-  journal = {NeurIPS Workshop on Machine Learning and Interpretation in NeuroImaging},
-  year = {2012}
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b> and F. A. Hamprecht.</p>
+  <p class="pub-title"><b>Learning Latent Structure for Identifying Neuronal Activity</b><br>
+  <i>NeurIPS Workshop on Machine Learning and Interpretation in NeuroImaging</i>, 2012.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2012a')">[BibTeX]</a>
+  </p>
+  <div id="bib_diego2012a" class="bibtex noshow">
+  <pre>@inproceedings{diego2012a,
+  author    = {Diego, Ferran and Hamprecht, Fred A.},
+  title     = {Learning Latent Structure for Identifying Neuronal Activity},
+  booktitle = {NeurIPS Workshop on Machine Learning and Interpretation in NeuroImaging},
+  year      = {2012}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
 <!-- Item: diego2012b -->
-<li ><p>
-F. Diego, G.D. Evangelidis and J. Serrat.
-<br><b>Night-time outdoor surveillance by mobile cameras</b><br>
-<i>Int. Conf. on Pattern Recognition, Applications and Methods (ICPRAM)</i>, 2012.
-<br />
-<a href="javascript:toggleBibtex('diego2012b')">[BibTeX]</a> <a href="https://hal.inria.fr/hal-00936023/document" target="_blank">[PDF]</a>
-</p>
-<div id="bib_diego2012b" class="bibtex noshow">
-<pre>
-@Article{diego2012b,
-  author = {F. Diego, G.D. Evangelidis and J. Serrat},
-  title = {Night-time outdoor surveillance by mobile cameras},
-  journal = {Int. Conf. on Pattern Recognition, Applications and Methods (ICPRAM)},
-  year = {2012}
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b>, G. D. Evangelidis and J. Serrat.</p>
+  <p class="pub-title"><b>Night-Time Outdoor Surveillance by Mobile Cameras</b><br>
+  <i>International Conference on Pattern Recognition, Applications and Methods (ICPRAM)</i>, 2012.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2012b')">[BibTeX]</a>
+    <a href="https://hal.inria.fr/hal-00936023/document" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_diego2012b" class="bibtex noshow">
+  <pre>@inproceedings{diego2012b,
+  author    = {Diego, Ferran and Evangelidis, Georgios D. and Serrat, Joan},
+  title     = {Night-Time Outdoor Surveillance by Mobile Cameras},
+  booktitle = {International Conference on Pattern Recognition, Applications and Methods (ICPRAM)},
+  year      = {2012}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
-
 
 <!-- Item: evangelidis2011a -->
-<li ><p>
-G.D. Evangelidis, F. Diego, J. Serrat and A. M. López.
-<br><b>Slice Matching for Accurate Spatio-Temporal Alignment</b><br>
-<i>ICCV Workshop on Visual Surveillance </i>, 2011.
-<br />
-<a href="javascript:toggleBibtex('evangelidis2011a')">[BibTeX]</a> <a href="https://hal.inria.fr/hal-00936021/document" target="_blank">[PDF]</a> <a href="https://hci.iwr.uni-heidelberg.de/Staff/fdiego/SliceMatching" target="_blank">[Project]</a>
-</p>
-<div id="bib_evangelidis2011a" class="bibtex noshow">
-<pre>
-@Article{evangelidis2011a,
-  author = {G.D. Evangelidis, F. Diego, J. Serrat and A. M. L\'opez},
-  title = {Slice Matching for Accurate Spatio-Temporal Alignment},
-  journal = {ICCV Workshop on Visual Surveillance},
-  year = {2011}
+<li class="pub-item">
+  <p class="pub-authors">G. D. Evangelidis, <b>F. Diego</b>, J. Serrat and A. M. López.</p>
+  <p class="pub-title"><b>Slice Matching for Accurate Spatio-Temporal Alignment</b><br>
+  <i>ICCV Workshop on Visual Surveillance</i>, 2011.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('evangelidis2011a')">[BibTeX]</a>
+    <a href="https://hal.inria.fr/hal-00936021/document" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://hciweb.iwr.uni-heidelberg.de/Staff/fdiego/SliceMatching" target="_blank" rel="noopener">[Project]</a>
+  </p>
+  <div id="bib_evangelidis2011a" class="bibtex noshow">
+  <pre>@inproceedings{evangelidis2011a,
+  author    = {Evangelidis, Georgios D. and Diego, Ferran and Serrat, Joan and L\'opez, Antonio M.},
+  title     = {Slice Matching for Accurate Spatio-Temporal Alignment},
+  booktitle = {ICCV Workshop on Visual Surveillance},
+  year      = {2011}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-
-<!-- Item: diego2010a-->
-<li ><p>
-F. Diego, J.M. Álvarez, J. Serrat and A. M. López.
-<br><b>Vision Based Road Detection via On-line Video Registration</b><br>
-<i> IEEE Intelligent Transportation Systems Conference (ITSC)</i>, 2010.
-<br />
-<a href="javascript:toggleBibtex('diego2010a')">[BibTeX]</a> <a href="http://www.cvc.uab.es/people/joans/conferences/10%20ITSC%20Video-based%20road%20detection%20based%20on%20on-line%20video%20registration.pdf" target="_blank">[PDF]</a> <a href="https://hci.iwr.uni-heidelberg.de/Staff/fdiego/RoadSegmentation" target="_blank">[Project]</a>
-</p>
-<div id="bib_diego2010a" class="bibtex noshow">
-<pre>
-@Article{diego2010a,
-  author = {F. Diego and J. M. \'Alvarez and J. Serrat and A. M. L\'opez},
-  title = {Vision Based Road Detection via On-line Video Registration},
-  journal = {IEEE Intelligent Transportation Systems Conference (ITSC)},
-  year = {2010}
+<!-- Item: diego2010a -->
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b>, J. M. Álvarez, J. Serrat and A. M. López.</p>
+  <p class="pub-title"><b>Vision-Based Road Detection via On-Line Video Registration</b><br>
+  <i>IEEE Intelligent Transportation Systems Conference (ITSC)</i>, pp. 1135–1140, 2010.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2010a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1109/ITSC.2010.5624998" target="_blank" rel="noopener">[DOI]</a>
+    <a href="https://hciweb.iwr.uni-heidelberg.de/Staff/fdiego/RoadSegmentation" target="_blank" rel="noopener">[Project]</a>
+  </p>
+  <div id="bib_diego2010a" class="bibtex noshow">
+  <pre>@inproceedings{diego2010a,
+  author    = {Diego, Ferran and Alvare\'iz, Jose M. and Serrat, Joan and L\'opez, Antonio M.},
+  title     = {Vision-Based Road Detection via On-Line Video Registration},
+  booktitle = {IEEE Intelligent Transportation Systems Conference (ITSC)},
+  pages     = {1135--1140},
+  year      = {2010},
+  doi       = {10.1109/ITSC.2010.5624998}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-<!-- Item: diego2010b-->
-<li ><p>
-F. Diego, D. Ponsa, J. Serrat and A. M. López.
-<br><b>Vehicle Geolocalization based on video synchronization</b><br>
-<i> IEEE Intelligent Transportation Systems Conference (ITSC)</i>, 2010.
-<br />
-<a href="javascript:toggleBibtex('diego2010b')">[BibTeX]</a> <a href="https://www.researchgate.net/publication/224190660_Vehicle_geolocalization_based_on_video_synchronization" target="_blank">[PDF]</a> <a href="https://hci.iwr.uni-heidelberg.de/Staff/fdiego/VehicleGeolocalization" target="_blank">[Project]</a> <a href="https://pdfs.semanticscholar.org/2b6b/8e1ce126c67deebd8992acae859044442ab0.pdf" target="_blank">[Slides]</a> 
-</p>
-<div id="bib_diego2010b" class="bibtex noshow">
-<pre>
-@Article{diego2010b,
-  author = {F. Diego and D. Ponsa and J. Serrat and A. M. L\'opez},
-  title = {Vehicle Geolocalization based on video synchronization},
-  journal = {IEEE Intelligent Transportation Systems Conference (ITSC)},
-  year = {2010}
+<!-- Item: diego2010b -->
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b>, D. Ponsa, J. Serrat and A. M. López.</p>
+  <p class="pub-title"><b>Vehicle Geolocalization Based on Video Synchronization</b><br>
+  <i>IEEE Intelligent Transportation Systems Conference (ITSC)</i>, pp. 1511–1516, 2010.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2010b')">[BibTeX]</a>
+    <a href="https://doi.org/10.1109/ITSC.2010.5625055" target="_blank" rel="noopener">[DOI]</a>
+    <a href="https://hciweb.iwr.uni-heidelberg.de/Staff/fdiego/VehicleGeolocalization" target="_blank" rel="noopener">[Project]</a>
+    <a href="https://pdfs.semanticscholar.org/2b6b/8e1ce126c67deebd8992acae859044442ab0.pdf" target="_blank" rel="noopener">[Slides]</a>
+  </p>
+  <div id="bib_diego2010b" class="bibtex noshow">
+  <pre>@inproceedings{diego2010b,
+  author    = {Diego, Ferran and Ponsa, Daniel and Serrat, Joan and L\'opez, Antonio M.},
+  title     = {Vehicle Geolocalization Based on Video Synchronization},
+  booktitle = {IEEE Intelligent Transportation Systems Conference (ITSC)},
+  pages     = {1511--1516},
+  year      = {2010},
+  doi       = {10.1109/ITSC.2010.5625055}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-<!-- Item: alvarez2009a-->
-<li ><p>
-J.M. Álvarez, F. Diego,  J. Serrat, A. M. López and D. Ponsa.
-<br><b>Automatic Ground-truthing using Video Registration for On-Board Detection Algorithms</b><br>
-<i> International Conference in Image Processing (ICIP)</i>, 2009.
-<br />
-<a href="javascript:toggleBibtex('alvarez2009a')">[BibTeX]</a> <a href="http://www.cvc.uab.es/~joans/conferences/09%20ICIP%20Automatic%20ground%20truthing%20using%20video%20registration.pdf" target="_blank">[PDF]</a> 
-</p>
-<div id="bib_alvarez2009a" class="bibtex noshow">
-<pre>
-@Article{alvarez2009a,
-  author = {J. M. \'Alvarez and F. Diego and J. Serrat and A. M. L\'opez and D. Ponsa},
-  title = {Automatic Ground-truthing using Video Registration for On-Board Detection Algorithms},
-  journal = {International Conference in Image Processing (ICIP)},
-  year = {2009}
+<!-- Item: alvarez2009a -->
+<li class="pub-item">
+  <p class="pub-authors">J. M. Álvarez, <b>F. Diego</b>, A. M. López, J. Serrat and D. Ponsa.</p>
+  <p class="pub-title"><b>Automatic Ground-Truthing Using Video Registration for On-Board Detection Algorithms</b><br>
+  <i>IEEE International Conference on Image Processing (ICIP)</i>, pp. 4389–4392, 2009.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('alvarez2009a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1109/ICIP.2009.5413620" target="_blank" rel="noopener">[DOI]</a>
+  </p>
+  <div id="bib_alvarez2009a" class="bibtex noshow">
+  <pre>@inproceedings{alvarez2009a,
+  author    = {Alvare\'iz, Jose M. and Diego, Ferran and L\'opez, Antonio M. and Serrat, Joan and Ponsa, Daniel},
+  title     = {Automatic Ground-Truthing Using Video Registration for On-Board Detection Algorithms},
+  booktitle = {IEEE International Conference on Image Processing (ICIP)},
+  pages     = {4389--4392},
+  year      = {2009},
+  doi       = {10.1109/ICIP.2009.5413620}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-
-<!-- Item: diego2009a-->
-<li ><p>
-F. Diego, D. Ponsa, J. Serrat and A. M. López.
-<br><b>Video Aligment for Automotive Applications</b><br>
-<i> One day BMVA symposium: Vision for Automotive Applications</i>, 2009.
-<br />
-<a href="javascript:toggleBibtex('diego2009a')">[BibTeX]</a> 
-</p>
-<div id="bib_diego2009a" class="bibtex noshow">
-<pre>
-@Article{diego2009a,
-  author = {F. Diego and D. Ponsa and J. Serrat and A. M. L\'opez},
-  title = {Video Aligment for Automotive Applications},
-  journal = {One day BMVA symposium: Vision for Automotive Applications},
-  year = {2009}
+<!-- Item: diego2009a -->
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b>, D. Ponsa, J. Serrat and A. M. López.</p>
+  <p class="pub-title"><b>Video Alignment for Automotive Applications</b><br>
+  <i>One Day BMVA Symposium: Vision for Automotive Applications</i>, 2009.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2009a')">[BibTeX]</a>
+  </p>
+  <div id="bib_diego2009a" class="bibtex noshow">
+  <pre>@inproceedings{diego2009a,
+  author    = {Diego, Ferran and Ponsa, Daniel and Serrat, Joan and L\'opez, Antonio M.},
+  title     = {Video Alignment for Automotive Applications},
+  booktitle = {One Day BMVA Symposium: Vision for Automotive Applications},
+  year      = {2009}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-<!-- Item: diego2008a-->
-<li ><p>
-F. Diego, D. Ponsa, J. Serrat and A. M. López.
-<br><b>Video Alignment for Difference-spotting</b><br>
-<i>ECCV workshop on Multi-camera and Multi-modal Sensor Fusion Algorithms and Applications (ECCVW: M2SFA2 2008)</i>, 2008.
-<br />
-<a href="javascript:toggleBibtex('diego2008a')">[BibTeX]</a> <a href="http://www.cvc.uab.es/adas/publications/diego_m2sfa2.pdf" target="_blank">[PDF]</a>
-</p>
-<div id="bib_diego2008a" class="bibtex noshow">
-<pre>
-@Article{diego2008a,
-  author = {F. Diego and D. Ponsa and J. Serrat and A. M. L\'opez},
-  title = {Video Alignment for Difference-spotting},
-  journal = { ECCV workshop on Multi-camera and Multi-modal Sensor Fusion Algorithms and Applications (ECCVW: M2SFA2 2008)},
-  year = {2008}
+<!-- Item: diego2008a -->
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b>, D. Ponsa, J. Serrat and A. M. López.</p>
+  <p class="pub-title"><b>Video Alignment for Difference-Spotting</b><br>
+  <i>ECCV Workshop on Multi-Camera and Multi-Modal Sensor Fusion Algorithms and Applications (ECCVW: M2SFA2)</i>, 2008.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2008a')">[BibTeX]</a>
+  </p>
+  <div id="bib_diego2008a" class="bibtex noshow">
+  <pre>@inproceedings{diego2008a,
+  author    = {Diego, Ferran and Ponsa, Daniel and Serrat, Joan and L\'opez, Antonio M.},
+  title     = {Video Alignment for Difference-Spotting},
+  booktitle = {ECCV Workshop on Multi-Camera and Multi-Modal Sensor Fusion Algorithms and Applications (ECCVW: M2SFA2)},
+  year      = {2008}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-<!-- Item: serrat2007a-->
-<li ><p>
-J. Serrat, F. Diego, F. Lumbreras and J.M. Álvarez.
-<br><b>Synchronization of Video Sequences from Free-Moving Cameras</b><br>
-<i>3rd Iberian Conf. on Pattern Recognition and Image Analysis (IbPRIA)</i>, 2007.
-<br />
-<a href="javascript:toggleBibtex('serrat2007a')">[BibTeX]</a> <a href="http://adas.cvc.uab.es/projects/sincro/IBPRIA07/papers/IbPRIA07%20sincro.pdf" target="_blank">[PDF]</a>
-</p>
-<div id="bib_serrat2007a" class="bibtex noshow">
-<pre>
-@Article{serrat2007a,
-  author = {J. Serrat and F. Diego and F. Lumbreras and  J.M. \'Alvarez},
-  title = {Synchronization of Video Sequences from Free-Moving Cameras},
-  journal = {3rd Iberian Conf. on Pattern Recognition and Image Analysis (IbPRIA)},
-  year = {2007}
+<!-- Item: serrat2007a -->
+<li class="pub-item">
+  <p class="pub-authors">J. Serrat, <b>F. Diego</b>, F. Lumbreras and J. M. Álvarez.</p>
+  <p class="pub-title"><b>Synchronization of Video Sequences from Free-Moving Cameras</b><br>
+  <i>3rd Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA)</i>, LNCS 4478, pp. 620–627, 2007.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('serrat2007a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1007/978-3-540-72849-8_78" target="_blank" rel="noopener">[DOI]</a>
+  </p>
+  <div id="bib_serrat2007a" class="bibtex noshow">
+  <pre>@inproceedings{serrat2007a,
+  author    = {Serrat, Joan and Diego, Ferran and Lumbreras, Felipe and Alvare\'iz, Jose M.},
+  title     = {Synchronization of Video Sequences from Free-Moving Cameras},
+  booktitle = {3rd Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA)},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {4478},
+  pages     = {620--627},
+  year      = {2007},
+  doi       = {10.1007/978-3-540-72849-8_78}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-<!-- Item: serrat2007b-->
-<li ><p>
-J. Serrat, F. Diego, F. Lumbreras and J.M. Álvarez.
-<br><b>Alignment of videos recorded from moving vehicles</b><br>
-<i>International Conference on Image Analysis and Processing (ICIAP)</i>, 2007.
-<br />
-<a href="javascript:toggleBibtex('serrat2007b')">[BibTeX]</a> <a href="http://www.cvc.uab.es/~joans/conferences/07%20ICIAP%20Alignment%20of%20videos%20recorded%20from%20moving%20vehicles.pdf" target="_blank">[PDF]</a>
-</p>
-<div id="bib_serrat2007b" class="bibtex noshow">
-<pre>
-@Article{serrat2007b,
-  author = {J. Serrat and F. Diego and F. Lumbreras and  J.M. \'Alvarez},
-  title = {Alignment of videos recorded from moving vehicles},
-  journal = {International Conference on Image Analysis and Processing (ICIAP)},
-  year = {2007}
+<!-- Item: serrat2007b -->
+<li class="pub-item">
+  <p class="pub-authors">J. Serrat, <b>F. Diego</b>, F. Lumbreras and J. M. Álvarez.</p>
+  <p class="pub-title"><b>Alignment of Videos Recorded from Moving Vehicles</b><br>
+  <i>14th International Conference on Image Analysis and Processing (ICIAP)</i>, pp. 512–517, 2007.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('serrat2007b')">[BibTeX]</a>
+    <a href="https://doi.org/10.1109/ICIAP.2007.4362829" target="_blank" rel="noopener">[DOI]</a>
+  </p>
+  <div id="bib_serrat2007b" class="bibtex noshow">
+  <pre>@inproceedings{serrat2007b,
+  author    = {Serrat, Joan and Diego, Ferran and Lumbreras, Felipe and Alvare\'iz, Jose M.},
+  title     = {Alignment of Videos Recorded from Moving Vehicles},
+  booktitle = {14th International Conference on Image Analysis and Processing (ICIAP)},
+  pages     = {512--517},
+  year      = {2007},
+  doi       = {10.1109/ICIAP.2007.4362829}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
-<!-- Item: duxans2016a-->
-<li ><p>
-H. Duxans, D. Erro, J. Perez, F. Diego, A. Bonafonte and A. Moreno.
-<br><b>Voice Conversion of Non-Aligned Data Using Unit Selection</b><br>
-<i>TC-STAR Workshop on Speech-to-Speech Translation</i>, 2006.
-<br />
-<a href="javascript:toggleBibtex('duxans2016a')">[BibTeX]</a> 
-</p>
-<div id="bib_duxans2016a" class="bibtex noshow">
-<pre>
-@Article{duxans2016a,
-  author = {H. Duxans and D. Erro and J. Perez and F. Diego and A. Bonafonte and A. Moreno.},
-  title = {Voice Conversion of Non-Aligned Data Using Unit Selection},
-  journal = {TC-STAR Workshop on Speech-to-Speech Translation},
-  year = {2006}
+<!-- Item: duxans2006a -->
+<li class="pub-item">
+  <p class="pub-authors">H. Duxans, D. Erro, J. Pérez, <b>F. Diego</b>, A. Bonafonte and A. Moreno.</p>
+  <p class="pub-title"><b>Voice Conversion of Non-Aligned Data Using Unit Selection</b><br>
+  <i>TC-STAR Workshop on Speech-to-Speech Translation</i>, 2006.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('duxans2006a')">[BibTeX]</a>
+  </p>
+  <div id="bib_duxans2006a" class="bibtex noshow">
+  <pre>@inproceedings{duxans2006a,
+  author    = {Duxans, H. and Erro, Daniel and P\'erez, J. and Diego, Ferran and Bonafonte, Antonio and Moreno, Asunci\'on},
+  title     = {Voice Conversion of Non-Aligned Data Using Unit Selection},
+  booktitle = {TC-STAR Workshop on Speech-to-Speech Translation},
+  year      = {2006}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
 </ul>
 
+<h3 class="pub-section">Preprints and Technical Reports</h3>
 
-<h3 style="margin-bottom:0px;padding-top:10px;">Books</h3>
+
+<ul class="biblist">
+
+<!-- Item: castellano2023a -->
+<li class="pub-item">
+  <p class="pub-authors">G. Castellano, J.-J. Nieto, J. Luque, <b>F. Diego</b>, C. Segura, D. Perino, F. Esposito, F. Risso and A. Raman.</p>
+  <p class="pub-title"><b>Scheduling Inference Workloads on Distributed Edge Clusters with Reinforcement Learning</b><br>
+  <i>arXiv preprint arXiv:2301.13618</i>, 2023.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('castellano2023a')">[BibTeX]</a>
+    <a href="https://arxiv.org/abs/2301.13618" target="_blank" rel="noopener">[arXiv]</a>
+  </p>
+  <div id="bib_castellano2023a" class="bibtex noshow">
+  <pre>@misc{castellano2023a,
+  author = {Castellano, Gabriele and Nieto, Juan-Jos\'e and Luque, Jordi and Diego, Ferran and Segura, Carlos and Perino, Diego and Esposito, Flavio and Risso, Fulvio and Raman, Aravindh},
+  title  = {Scheduling Inference Workloads on Distributed Edge Clusters with Reinforcement Learning},
+  howpublished = {arXiv:2301.13618},
+  year   = {2023}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: andersson2021a -->
+<li class="pub-item">
+  <p class="pub-authors">A. Andersson, <b>F. Diego</b>, F. A. Hamprecht and C. Wählby.</p>
+  <p class="pub-title"><b>ISTDECO: In Situ Transcriptomics Decoding by Deconvolution</b><br>
+  <i>bioRxiv preprint</i>, 2021.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('andersson2021a')">[BibTeX]</a>
+    <a href="https://doi.org/10.1101/2021.03.01.433040" target="_blank" rel="noopener">[PDF]</a>
+    <a href="https://github.com/axanderssonuu/istdeco" target="_blank" rel="noopener">[Code]</a>
+  </p>
+  <div id="bib_andersson2021a" class="bibtex noshow">
+  <pre>@misc{andersson2021a,
+  author = {Andersson, Axel and Diego, Ferran and Hamprecht, Fred A. and W{\"a}hlby, Carolina},
+  title  = {ISTDECO: In Situ Transcriptomics Decoding by Deconvolution},
+  howpublished = {bioRxiv:2021.03.01.433040},
+  year   = {2021},
+  doi    = {10.1101/2021.03.01.433040}
+}
+  </pre>
+  </div>
+</li>
+
+<!-- Item: alvarez2014a -->
+<li class="pub-item">
+  <p class="pub-authors">J. M. Álvarez, <b>F. Diego</b>, J. Serrat and A. M. López.</p>
+  <p class="pub-title"><b>Road Detection via On-Line Label Transfer</b><br>
+  <i>arXiv preprint arXiv:1412.3159</i>, 2014.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('alvarez2014a')">[BibTeX]</a>
+    <a href="https://arxiv.org/abs/1412.3159" target="_blank" rel="noopener">[arXiv]</a>
+  </p>
+  <div id="bib_alvarez2014a" class="bibtex noshow">
+  <pre>@misc{alvarez2014a,
+  author = {Alvare\'iz, Jose M. and Diego, Ferran and Serrat, Joan and L\'opez, Antonio M.},
+  title  = {Road Detection via On-Line Label Transfer},
+  howpublished = {arXiv:1412.3159},
+  year   = {2014}
+}
+  </pre>
+  </div>
+</li>
+
+</ul>
+
+<h3 class="pub-section">Books</h3>
 
 
 <ul class="biblist">
 
 <!-- Item: diego2011book -->
-<li ><p>
-F. Diego, D. Geronimo and J. Vazquez-Corral (Eds.)
-<br><b>State of the Art of Research and Development in Computer Vision</b><br>
-<i>Proceedings of the Sixth CVC Workshop. Computer Vision Center </i>, 2011.
-<br />
-<a href="javascript:toggleBibtex('diego2011book')">[BibTeX]</a>
-</p>
-<div id="bib_diego2011book" class="bibtex noshow">
-<pre>
-@Article{diego2011book,
-  author = {F. Diego and D. Geronimo and J. Vazquez-Corral (Eds.)},
-  title = {State of the Art of Research and Development in Computer Vision},
-  journal = {Proceedings of the Sixth CVC Workshop. Computer Vision Center},
-  year = {2011}
+<li class="pub-item">
+  <p class="pub-authors"><b>F. Diego</b>, D. Geronimo and J. Vazquez-Corral (Eds.)</p>
+  <p class="pub-title"><b>State of the Art of Research and Development in Computer Vision</b><br>
+  <i>Proceedings of the Sixth CVC Workshop. Computer Vision Center</i>, 2011.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('diego2011book')">[BibTeX]</a>
+  </p>
+  <div id="bib_diego2011book" class="bibtex noshow">
+  <pre>@book{diego2011book,
+  editor = {Diego, Ferran and Geronimo, D. and Vazquez-Corral, J.},
+  title  = {State of the Art of Research and Development in Computer Vision},
+  publisher = {Proceedings of the Sixth CVC Workshop. Computer Vision Center},
+  year   = {2011}
 }
-</pre>
-</div>
+  </pre>
+  </div>
 </li>
 
 </ul>
-<!--
-<h3 style="margin-bottom:0px;padding-top:10px;">Top-Tier Journal Publications</h3>
-{% for post in site.publications reversed %}
-    {% if post.type==1 %}
-      {% include archive-single.html %}
-    {% endif %}
-{% endfor %}
-
-<h3 style="margin-bottom:0px;padding-top:10px;">Conferences</h3>
-
-{% for post in site.publications reversed %}
-    {% if post.type==2 %}
-      {% include archive-single.html %}
-    {% endif %}
-{% endfor %}
--->
