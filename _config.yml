@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ferran Diego"
 title_separator          : "-"
 name                     : &name "Ferran Diego"
-description              : &description "Team Lead of the Fundamental AI team at Telefónica Research"
+description              : &description "Team Lead of the Fundamental AI and AI for Networking and Computing Continuum at Telefónica Research"
 url                      : https://ferrandiego.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ferrandiego/ferrandiego.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ferran Diego"
   avatar           : "avatar.jpg"
-  bio              : "Team Lead of the Fundamental AI team at Telefónica Research"
+  bio              : "Team Lead of the Fundamental AI and AI for Networking and Computing Continuum at Telefónica Research"
   location         : "Barcelona, Spain"
   employer         : "Telefonica Research"
   pubmed           : 
