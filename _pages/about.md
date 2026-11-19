@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am the **Team Lead** of the **Fundamental AI and AI for Networking and Computing Continuum** team at [Telefónica Research](https://www.grupotelefonica.com/en/telefonica-research), where I work on machine learning and deep learning for networking and edge computing.
+I am the **Team Lead** of the **Fundamental AI and AI for Networking and Computing Continuum** team at [Telefónica Research](https://www.grupotelefonica.com/en/telefonica-research).
 
 My current research interests include:
 
