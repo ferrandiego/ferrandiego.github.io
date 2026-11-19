@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a **Team Lead** at [Telefónica Research](https://www.grupotelefonica.com/en/telefonica-research), where I lead research in machine learning and deep learning for networking and edge computing.
+I am the **Team Lead** of the **Fundamental AI** team at [Telefónica Research](https://www.grupotelefonica.com/en/telefonica-research), where I work on machine learning and deep learning for networking and edge computing.
 
 My current research interests include:
 
@@ -28,7 +28,7 @@ I am a Telecommunication Engineer by the Universitat Politècnica de Catalunya (
 
 <ul class="news-timeline">
   <li><span class="news-date">March 2025.</span> Our paper <a href="https://doi.org/10.1145/3721889.3721931">RemWoW: Resource Efficient Management of Workloads of Repeated Workflows</a> presented at MECC '25, the 2nd International Workshop on MetaOS for the Cloud-Edge-IoT Continuum (co-located with EuroSys 2025).</li>
-  <li><span class="news-date">2024.</span> Became Team Lead at <a href="https://www.grupotelefonica.com/en/telefonica-research">Telefónica Research</a>.</li>
+  <li><span class="news-date">2024.</span> Became Team Lead of the Fundamental AI team at <a href="https://www.grupotelefonica.com/en/telefonica-research">Telefónica Research</a>.</li>
   <li><span class="news-date">October 2023.</span> Our survey <a href="https://doi.org/10.3390/jcp3040034">Security in Cloud-Native Services: A Survey</a> published in the <i>Journal of Cybersecurity and Privacy</i>.</li>
   <li><span class="news-date">June 2021.</span> <a href="https://doi.org/10.1109/CVPRW53098.2021.00113">Expression Transfer Using Flow-Based Generative Models</a> presented at the CVPR 2021 Workshops.</li>
   <li><span class="news-date">June 2019.</span> Awarded as Outstanding Reviewer at <a href="http://cvpr2019.thecvf.com/files/CVPR_2019_Program_Guide.pdf">CVPR 2019</a>.</li>
