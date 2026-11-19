@@ -9,6 +9,8 @@ redirect_from:
 ---
 
 
+<img class="team-banner" src="/images/fundamental-ai-banner.svg" alt="Fundamental AI and AI for Networking and Computing Continuum" width="1200" height="630">
+
 I am the **Team Lead** of the **Fundamental AI and AI for Networking and Computing Continuum** team at [Telefónica Research](https://www.grupotelefonica.com/en/telefonica-research).
 
 My current research interests include:

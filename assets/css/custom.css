@@ -278,6 +278,17 @@ div.bibtex pre {
   white-space: pre;
 }
 
+/* ---- Team banner (home page) -------------------------------------------------- */
+
+img.team-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.3em 0 1.7em;
+  border-radius: var(--fd-radius);
+  box-shadow: 0 4px 18px rgba(8, 20, 38, .12);
+}
+
 /* ---- News timeline (home page) ----------------------------------------------- */
 
 ul.news-timeline {
