@@ -16,8 +16,8 @@ You can download my full [CV (PDF)](https://www.dropbox.com/s/3s7xke6cwn6zdqb/cu
 
 <table class="cv-table">
   <tr><th>Period</th><th>Position</th></tr>
-  <tr><td>Since 2024</td><td>Team Lead of the Fundamental AI and AI for Networking and Computing Continuum team at <a href="https://www.grupotelefonica.com/en/telefonica-research/">Telefónica Research</a> (R&amp;D), Barcelona</td></tr>
-  <tr><td>2018–2024</td><td>Research Scientist at <a href="https://www.grupotelefonica.com/en/telefonica-research/">Telefónica Research</a> (R&amp;D), Barcelona</td></tr>
+  <tr><td>Since 2024</td><td>Team Lead of the Fundamental AI and AI for Networking and Computing Continuum team at <a href="https://www.grupotelefonica.com/en/telefonica-research/">Telefonica Scientific Research</a> (R&amp;D), Barcelona</td></tr>
+  <tr><td>2018–2024</td><td>Research Scientist at <a href="https://www.grupotelefonica.com/en/telefonica-research/">Telefonica Scientific Research</a> (R&amp;D), Barcelona</td></tr>
   <tr><td>2016–2018</td><td>Research Scientist at Robert Bosch GmbH, Hildesheim (Corporate Research)</td></tr>
   <tr><td>2012–2016</td><td>Postdoc at <a href="https://hciweb.iwr.uni-heidelberg.de/">Heidelberg Collaboratory for Image Processing</a> (HCI) and CellNetworks, Heidelberg</td></tr>
   <tr><td>2008–2011</td><td>PhD student in Computer Science (Training of University Professionals, FPU Fellowship, Spanish Government) at the <a href="http://www.cvc.uab.es">Computer Vision Center</a>, <a href="http://www.cvc.uab.es/adas/">ADAS group</a>, <a href="https://www.uab.cat">Universitat Autònoma de Barcelona</a></td></tr>

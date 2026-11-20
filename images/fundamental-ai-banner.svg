@@ -131,4 +131,6 @@
   <circle cx="985" cy="489" r="7" fill="none" stroke="#7FD4FF" stroke-width="2"/>
   <circle cx="985" cy="489" r="2.5" fill="#E30613"/>
 
+  <!-- Footer -->
+  <text x="40" y="600" font-size="16" fill="#7FA6CC" fill-opacity="0.8" letter-spacing="1">Telefonica Scientific Research</text>
 </svg>
