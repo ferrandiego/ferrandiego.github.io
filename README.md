@@ -21,7 +21,7 @@ Todo lo demás (`_layouts`, `_includes`, `_sass`) es parte del tema y no se toca
 1. `git pull`
 2. Editar el archivo correspondiente:
    - **Noticia nueva** → añadir una `<li>` al principio de la lista `news-timeline` en `_pages/about.md`.
-   - **Paper nuevo** → copiar una entrada `pub-item` en `_pages/publications.md` (la sección y el orden que corresponda). El `id` del `<div class="bibtex">` tiene que ser `bib_<claves>` y encajar con `toggleBibtex('<claves>')`.
+   - **Paper nuevo** → copiar una entrada `pub-item` en `_pages/publications.md` (la sección y el orden que corresponda). El `id` del `<div class="bibtex">` tiene que ser `bib_<claves>` y encajar con `toggleBibtex('<claves>')`. Añade también `data-year="AAAA"` al `<li class="pub-item">`: el filtro de la cabecera (búsqueda, año y tipo) lo necesita.
    - **Puesto / CV** → editar la tabla `cv-table` en `_pages/cv.md`.
    - **Descripción / redes** → sección `author:` en `_config.yml`.
 3. Revisar localmente (ver abajo) y `git push`. GitHub Pages reconstruye la web en ~1 minuto.

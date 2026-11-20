@@ -7,6 +7,25 @@ author_profile: true
 
 You can also browse my <a href="https://scholar.google.es/citations?user=aYO_0vgAAAAJ">Google Scholar profile</a>.
 
+<div class="pub-filters" id="pubFilters">
+  <input type="search" id="pubSearch" class="pub-search" placeholder="Search title, author or venue…" aria-label="Search publications">
+  <select id="pubYear" class="pub-select" aria-label="Filter by year">
+    <option value="all">All years</option>
+    <option value="2020-2025">2020 – 2025</option>
+    <option value="2010-2019">2010 – 2019</option>
+    <option value="2006-2009">2006 – 2009</option>
+  </select>
+  <div class="pub-chips" role="group" aria-label="Filter by type">
+    <button type="button" class="pub-chip is-active" data-type="all">All</button>
+    <button type="button" class="pub-chip" data-type="journals">Journals</button>
+    <button type="button" class="pub-chip" data-type="conferences">Conferences</button>
+    <button type="button" class="pub-chip" data-type="preprints">Preprints</button>
+    <button type="button" class="pub-chip" data-type="books">Books</button>
+  </div>
+  <span class="pub-count" id="pubCount" aria-live="polite"></span>
+</div>
+<p class="pub-nomatch" id="pubNoMatch" hidden>No publications match your search.</p>
+
 
 <style>
     /*************************************
@@ -28,12 +47,12 @@ div.noshow { display: none; }
     }
 </script>
 
-<h3 class="pub-section">Journals</h3>
+<h3 class="pub-section" data-type="journals">Journals</h3>
 
 <ul class="biblist">
 
 <!-- Item: theodoropoulos2023a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2023">
   <p class="pub-authors">T. Theodoropoulos, L. Rosa, C. Benzaid, P. Gray, E. Marin, A. Makris, L. Cordeiro, <b>F. Diego</b>, P. Sorokin, M. Di Girolamo, P. Barone, T. Taleb and K. Tserpes.</p>
   <p class="pub-title"><b>Security in Cloud-Native Services: A Survey</b><br>
   <i>Journal of Cybersecurity and Privacy</i>, 3(4), 758–793, 2023.</p>
@@ -57,7 +76,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: milbich2020a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2020">
   <p class="pub-authors">T. Milbich, O. Ghori, <b>F. Diego</b> and B. Ommer.</p>
   <p class="pub-title"><b>Unsupervised Representation Learning by Discovering Reliable Image Relations</b><br>
   <i>Pattern Recognition</i>, 102, 107107, 2020.</p>
@@ -80,7 +99,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2013tmm -->
-<li class="pub-item">
+<li class="pub-item" data-year="2013">
   <p class="pub-authors"><b>F. Diego</b>, J. Serrat and A. M. López.</p>
   <p class="pub-title"><b>Joint Spatio-Temporal Alignment of Sequences</b><br>
   <i>IEEE Trans. on Multimedia (TMM)</i>, 15(6), 1377–1387, 2013.</p>
@@ -104,7 +123,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: alvarez2012a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2012">
   <p class="pub-authors">J. M. Álvarez, T. Gevers, <b>F. Diego</b> and A. M. López.</p>
   <p class="pub-title"><b>Road Geometry Classification by Adaptive Shape Models</b><br>
   <i>IEEE Trans. on Intelligent Transportation Systems (T-ITS)</i>, 14(1), 459–468, 2012.</p>
@@ -128,7 +147,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2011a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2011">
   <p class="pub-authors"><b>F. Diego</b>, D. Ponsa, J. Serrat and A. M. López.</p>
   <p class="pub-title"><b>Video Alignment for Change Detection</b><br>
   <i>IEEE Trans. on Image Processing (TIP)</i>, 20(7), 1858–1869, 2011.</p>
@@ -152,7 +171,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: serrat2008a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2008">
   <p class="pub-authors">J. Serrat, <b>F. Diego</b>, F. Lumbreras, J. M. Álvarez, A. M. López and C. Elvira.</p>
   <p class="pub-title"><b>Dynamic Comparison of Headlights</b><br>
   <i>Proc. Inst. Mech. Eng. Part D: J. Automobile Engineering</i>, 222(5), 643–656, 2008.</p>
@@ -177,13 +196,13 @@ div.noshow { display: none; }
 
 </ul>
 
-<h3 class="pub-section">Conferences and Workshops</h3>
+<h3 class="pub-section" data-type="conferences">Conferences and Workshops</h3>
 
 
 <ul class="biblist">
 
 <!-- Item: alvarez2025a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2025">
   <p class="pub-authors">F. Álvarez, <b>F. Diego</b>, M. Rozanska, R. Sanfeliu, Y. Verginadis and G. Horn.</p>
   <p class="pub-title"><b>RemWoW: Resource Efficient Management of Workloads of Repeated Workflows</b><br>
   <i>MECC '25: Proceedings of the 2nd International Workshop on MetaOS for the Cloud-Edge-IoT Continuum</i> (co-located with EuroSys 2025), pp. 66–72, 2025.</p>
@@ -205,7 +224,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: tura2021a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2021">
   <p class="pub-authors">B. Tura, S. Escuder, <b>F. Diego</b>, C. Segura and J. Luque.</p>
   <p class="pub-title"><b>Efficient Keyword Spotting by Capturing Long-Range Interactions with Temporal Lambda Networks</b><br>
   <i>IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)</i>, pp. 146–153, 2021.</p>
@@ -228,7 +247,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: valenzuela2021a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2021">
   <p class="pub-authors">A. Valenzuela, C. Segura, <b>F. Diego</b> and V. Gómez.</p>
   <p class="pub-title"><b>Expression Transfer Using Flow-Based Generative Models</b><br>
   <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops</i> (Workshop on Media Forensics), pp. 1023–1031, 2021.</p>
@@ -250,7 +269,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: korontanis2021a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2021">
   <p class="pub-authors">I. Korontanis, K. Tserpes, M. Pateraki, L. Blasi, J. Violos, <b>F. Diego</b>, E. Marin, N. Kourtellis, M. Coppola, E. Carlini, Z. Ledwoń, P. Tarkowski, T. Loven, Y. González Rozas, M. Kentros, M. Dodis and P. Dazzi.</p>
   <p class="pub-title"><b>Inter-Operability and Orchestration in Heterogeneous Cloud/Edge Resources: The ACCORDION Vision</b><br>
   <i>FRAME '21: Proceedings of the 1st Workshop on Flexible Resource and Application Management on the Edge</i> (co-located with HPDC 2021), pp. 9–14, 2021.</p>
@@ -272,7 +291,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: oriol2020a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2020">
   <p class="pub-authors">B. Oriol, J. Luque, <b>F. Diego</b> and X. Giro-i-Nieto.</p>
   <p class="pub-title"><b>Transcription-Enriched Joint Embeddings for Spoken Descriptions of Images and Videos</b><br>
   <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops</i> (Workshop on Egocentric Perception, Interaction and Computing), 2020.</p>
@@ -292,7 +311,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: mackowiak2018a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2018">
   <p class="pub-authors">R. Mackowiak, P. Lenz, O. Ghori, <b>F. Diego</b>, O. Lange and C. Rother.</p>
   <p class="pub-title"><b>Cereals-Cost-Effective Region-Based Active Learning for Semantic Segmentation</b><br>
   <i>British Machine Vision Conference (BMVC)</i>, 2018.</p>
@@ -312,7 +331,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: ghori2018a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2018">
   <p class="pub-authors">O. Ghori, R. Mackowiak, M. Bautista, N. Beuter, L. Drumond, <b>F. Diego</b> and B. Ommer.</p>
   <p class="pub-title"><b>Learning to Forecast Pedestrian Intention from Pose Dynamics</b><br>
   <i>IEEE Intelligent Vehicles Symposium (IV)</i>, 2018.</p>
@@ -331,7 +350,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: peter2017a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2017">
   <p class="pub-authors">S. Peter, <b>F. Diego</b>, F. A. Hamprecht and B. Nadler.</p>
   <p class="pub-title"><b>Cost Efficient Gradient Boosting</b><br>
   <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2017.</p>
@@ -352,7 +371,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: peter2017b -->
-<li class="pub-item">
+<li class="pub-item" data-year="2017">
   <p class="pub-authors">S. Peter, E. Kirschbaum, M. Both, L. Campbell, B. Harvey, C. Heins, D. Durstewitz, <b>F. Diego</b> and F. A. Hamprecht.</p>
   <p class="pub-title"><b>Sparse Convolutional Coding for Neuronal Assembly Detection</b><br>
   <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2017.</p>
@@ -373,7 +392,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: schiegg2016a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2016">
   <p class="pub-authors">M. Schiegg, <b>F. Diego</b> and F. A. Hamprecht.</p>
   <p class="pub-title"><b>Learning Diverse Models: The Coulomb Structured Support Vector Machine</b><br>
   <i>European Conference on Computer Vision (ECCV)</i>, 2016.</p>
@@ -394,7 +413,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: kandemir2016a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2016">
   <p class="pub-authors">M. Kandemir, M. Haussmann, <b>F. Diego</b>, K. T. Rajamani, J. van der Laak and F. A. Hamprecht.</p>
   <p class="pub-title"><b>Variational Weakly Supervised Gaussian Processes</b><br>
   <i>British Machine Vision Conference (BMVC)</i>, 2016.</p>
@@ -415,7 +434,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2016a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2016">
   <p class="pub-authors"><b>F. Diego</b> and F. A. Hamprecht.</p>
   <p class="pub-title"><b>Structured Regression Gradient Boosting</b><br>
   <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2016.</p>
@@ -436,7 +455,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2014a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2014">
   <p class="pub-authors"><b>F. Diego</b> and F. A. Hamprecht.</p>
   <p class="pub-title"><b>Sparse Space-Time Deconvolution for Calcium Image Analysis</b><br>
   <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2014.</p>
@@ -456,7 +475,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: fiaschi2014a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2014">
   <p class="pub-authors">L. Fiaschi, <b>F. Diego</b>, K. Gregor, M. Schiegg, U. Köthe, M. Zlatic and F. A. Hamprecht.</p>
   <p class="pub-title"><b>Learning to Disambiguate Indistinguishable Objects Over Time Using Weakly Supervised Structured Learning</b><br>
   <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2014.</p>
@@ -476,7 +495,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2013sparse -->
-<li class="pub-item">
+<li class="pub-item" data-year="2013">
   <p class="pub-authors"><b>F. Diego</b> and F. A. Hamprecht.</p>
   <p class="pub-title"><b>Learning Multi-Level Sparse Representations</b><br>
   <i>Advances in Neural Information Processing Systems (NeurIPS)</i>, 2013.</p>
@@ -496,7 +515,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2013b -->
-<li class="pub-item">
+<li class="pub-item" data-year="2013">
   <p class="pub-authors"><b>F. Diego</b>, S. Reichinnek, M. Both and F. A. Hamprecht.</p>
   <p class="pub-title"><b>Automated Identification of Neuronal Activity from Calcium Imaging by Sparse Dictionary Learning</b><br>
   <i>IEEE International Symposium on Biomedical Imaging (ISBI)</i>, 2013.</p>
@@ -517,7 +536,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: evangelidis2013a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2013">
   <p class="pub-authors">G. D. Evangelidis, <b>F. Diego</b> and R. Horaud.</p>
   <p class="pub-title"><b>From Video Matching to Video Grounding</b><br>
   <i>ICCV Workshop on Computer Vision in Vehicle Technology (ICCVW)</i>, 2013.</p>
@@ -538,7 +557,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2012a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2012">
   <p class="pub-authors"><b>F. Diego</b> and F. A. Hamprecht.</p>
   <p class="pub-title"><b>Learning Latent Structure for Identifying Neuronal Activity</b><br>
   <i>NeurIPS Workshop on Machine Learning and Interpretation in NeuroImaging</i>, 2012.</p>
@@ -557,7 +576,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2012b -->
-<li class="pub-item">
+<li class="pub-item" data-year="2012">
   <p class="pub-authors"><b>F. Diego</b>, G. D. Evangelidis and J. Serrat.</p>
   <p class="pub-title"><b>Night-Time Outdoor Surveillance by Mobile Cameras</b><br>
   <i>International Conference on Pattern Recognition, Applications and Methods (ICPRAM)</i>, 2012.</p>
@@ -577,7 +596,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: evangelidis2011a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2011">
   <p class="pub-authors">G. D. Evangelidis, <b>F. Diego</b>, J. Serrat and A. M. López.</p>
   <p class="pub-title"><b>Slice Matching for Accurate Spatio-Temporal Alignment</b><br>
   <i>ICCV Workshop on Visual Surveillance</i>, 2011.</p>
@@ -598,7 +617,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2010a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2010">
   <p class="pub-authors"><b>F. Diego</b>, J. M. Álvarez, J. Serrat and A. M. López.</p>
   <p class="pub-title"><b>Vision-Based Road Detection via On-Line Video Registration</b><br>
   <i>IEEE Intelligent Transportation Systems Conference (ITSC)</i>, pp. 1135–1140, 2010.</p>
@@ -621,7 +640,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2010b -->
-<li class="pub-item">
+<li class="pub-item" data-year="2010">
   <p class="pub-authors"><b>F. Diego</b>, D. Ponsa, J. Serrat and A. M. López.</p>
   <p class="pub-title"><b>Vehicle Geolocalization Based on Video Synchronization</b><br>
   <i>IEEE Intelligent Transportation Systems Conference (ITSC)</i>, pp. 1511–1516, 2010.</p>
@@ -645,7 +664,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: alvarez2009a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2009">
   <p class="pub-authors">J. M. Álvarez, <b>F. Diego</b>, A. M. López, J. Serrat and D. Ponsa.</p>
   <p class="pub-title"><b>Automatic Ground-Truthing Using Video Registration for On-Board Detection Algorithms</b><br>
   <i>IEEE International Conference on Image Processing (ICIP)</i>, pp. 4389–4392, 2009.</p>
@@ -667,7 +686,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2009a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2009">
   <p class="pub-authors"><b>F. Diego</b>, D. Ponsa, J. Serrat and A. M. López.</p>
   <p class="pub-title"><b>Video Alignment for Automotive Applications</b><br>
   <i>One Day BMVA Symposium: Vision for Automotive Applications</i>, 2009.</p>
@@ -686,7 +705,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: diego2008a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2008">
   <p class="pub-authors"><b>F. Diego</b>, D. Ponsa, J. Serrat and A. M. López.</p>
   <p class="pub-title"><b>Video Alignment for Difference-Spotting</b><br>
   <i>ECCV Workshop on Multi-Camera and Multi-Modal Sensor Fusion Algorithms and Applications (ECCVW: M2SFA2)</i>, 2008.</p>
@@ -705,7 +724,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: serrat2007a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2007">
   <p class="pub-authors">J. Serrat, <b>F. Diego</b>, F. Lumbreras and J. M. Álvarez.</p>
   <p class="pub-title"><b>Synchronization of Video Sequences from Free-Moving Cameras</b><br>
   <i>3rd Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA)</i>, LNCS 4478, pp. 620–627, 2007.</p>
@@ -729,7 +748,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: serrat2007b -->
-<li class="pub-item">
+<li class="pub-item" data-year="2007">
   <p class="pub-authors">J. Serrat, <b>F. Diego</b>, F. Lumbreras and J. M. Álvarez.</p>
   <p class="pub-title"><b>Alignment of Videos Recorded from Moving Vehicles</b><br>
   <i>14th International Conference on Image Analysis and Processing (ICIAP)</i>, pp. 512–517, 2007.</p>
@@ -751,7 +770,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: duxans2006a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2006">
   <p class="pub-authors">H. Duxans, D. Erro, J. Pérez, <b>F. Diego</b>, A. Bonafonte and A. Moreno.</p>
   <p class="pub-title"><b>Voice Conversion of Non-Aligned Data Using Unit Selection</b><br>
   <i>TC-STAR Workshop on Speech-to-Speech Translation</i>, 2006.</p>
@@ -771,13 +790,13 @@ div.noshow { display: none; }
 
 </ul>
 
-<h3 class="pub-section">Preprints and Technical Reports</h3>
+<h3 class="pub-section" data-type="preprints">Preprints and Technical Reports</h3>
 
 
 <ul class="biblist">
 
 <!-- Item: castellano2023a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2023">
   <p class="pub-authors">G. Castellano, J.-J. Nieto, J. Luque, <b>F. Diego</b>, C. Segura, D. Perino, F. Esposito, F. Risso and A. Raman.</p>
   <p class="pub-title"><b>Scheduling Inference Workloads on Distributed Edge Clusters with Reinforcement Learning</b><br>
   <i>arXiv preprint arXiv:2301.13618</i>, 2023.</p>
@@ -797,7 +816,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: andersson2021a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2021">
   <p class="pub-authors">A. Andersson, <b>F. Diego</b>, F. A. Hamprecht and C. Wählby.</p>
   <p class="pub-title"><b>ISTDECO: In Situ Transcriptomics Decoding by Deconvolution</b><br>
   <i>bioRxiv preprint</i>, 2021.</p>
@@ -819,7 +838,7 @@ div.noshow { display: none; }
 </li>
 
 <!-- Item: alvarez2014a -->
-<li class="pub-item">
+<li class="pub-item" data-year="2014">
   <p class="pub-authors">J. M. Álvarez, <b>F. Diego</b>, J. Serrat and A. M. López.</p>
   <p class="pub-title"><b>Road Detection via On-Line Label Transfer</b><br>
   <i>arXiv preprint arXiv:1412.3159</i>, 2014.</p>
@@ -840,13 +859,13 @@ div.noshow { display: none; }
 
 </ul>
 
-<h3 class="pub-section">Books</h3>
+<h3 class="pub-section" data-type="books">Books</h3>
 
 
 <ul class="biblist">
 
 <!-- Item: diego2011book -->
-<li class="pub-item">
+<li class="pub-item" data-year="2011">
   <p class="pub-authors"><b>F. Diego</b>, D. Geronimo and J. Vazquez-Corral (Eds.)</p>
   <p class="pub-title"><b>State of the Art of Research and Development in Computer Vision</b><br>
   <i>Proceedings of the Sixth CVC Workshop. Computer Vision Center</i>, 2011.</p>
@@ -865,3 +884,63 @@ div.noshow { display: none; }
 </li>
 
 </ul>
+
+<script type="text/javascript">
+(function () {
+  var search = document.getElementById('pubSearch');
+  var yearSel = document.getElementById('pubYear');
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.pub-chip'));
+  var sections = Array.prototype.slice.call(document.querySelectorAll('h3.pub-section'));
+  var items = Array.prototype.slice.call(document.querySelectorAll('li.pub-item'));
+  var count = document.getElementById('pubCount');
+  var noMatch = document.getElementById('pubNoMatch');
+  var total = items.length;
+  var activeType = 'all';
+
+  function inRange(y, range) {
+    if (range === 'all') return true;
+    var parts = range.split('-');
+    var lo = parseInt(parts[0], 10);
+    var hi = parts[1] ? parseInt(parts[1], 10) : 9999;
+    return y >= lo && y <= hi;
+  }
+
+  function apply() {
+    var q = search.value.trim().toLowerCase();
+    var range = yearSel.value;
+    var shown = 0;
+    items.forEach(function (it) {
+      var y = parseInt(it.getAttribute('data-year') || '0', 10);
+      var ok = inRange(y, range) && (!q || it.textContent.toLowerCase().indexOf(q) !== -1);
+      it.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    });
+    sections.forEach(function (h3) {
+      var t = h3.getAttribute('data-type');
+      var typeOk = activeType === 'all' || t === activeType;
+      var ul = h3.nextElementSibling;
+      while (ul && ul.tagName !== 'UL') ul = ul.nextElementSibling;
+      var hasVisible = Array.prototype.some.call(
+        ul.querySelectorAll('li.pub-item'),
+        function (it) { return it.style.display !== 'none'; }
+      );
+      var show = typeOk && hasVisible;
+      h3.style.display = show ? '' : 'none';
+      ul.style.display = show ? '' : 'none';
+    });
+    noMatch.hidden = shown !== 0;
+    count.textContent = shown === total ? '' : shown + ' of ' + total + ' shown';
+  }
+
+  search.addEventListener('input', apply);
+  yearSel.addEventListener('change', apply);
+  chips.forEach(function (c) {
+    c.addEventListener('click', function () {
+      chips.forEach(function (x) { x.classList.remove('is-active'); });
+      c.classList.add('is-active');
+      activeType = c.getAttribute('data-type');
+      apply();
+    });
+  });
+})();
+</script>
