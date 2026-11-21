@@ -201,6 +201,28 @@ div.noshow { display: none; }
 
 <ul class="biblist">
 
+<!-- Item: castellano2025scheduling -->
+<li class="pub-item" data-year="2025">
+  <p class="pub-authors">G. Castellano, J.-J. Nieto, A. Angi, F. Álvarez Terribas, J. Luque, <b>F. Diego</b>, A. Sacco, F. Esposito and F. Risso.</p>
+  <p class="pub-title"><b>Scheduling Inference Workloads in the Computing Continuum with Reinforcement Learning</b><br>
+  <i>2025 IEEE 45th International Conference on Distributed Computing Systems Workshops (ICDCSW)</i>, pp. 297–302, 2025.</p>
+  <p class="pub-links">
+    <a href="javascript:toggleBibtex('castellano2025scheduling')">[BibTeX]</a>
+    <a href="https://doi.org/10.1109/ICDCSW63273.2025.00056" target="_blank" rel="noopener">[PDF]</a>
+  </p>
+  <div id="bib_castellano2025scheduling" class="bibtex noshow">
+  <pre>@inproceedings{castellano2025scheduling,
+  author    = {Castellano, Gabriele and Nieto, Juan-Jos\'e and Angi, Antonino and Alvare\'iz Terribas, Francisco and Luque, Jordi and Diego, Ferran and Sacco, Alessio and Esposito, Flavio and Risso, Fulvio},
+  title     = {Scheduling Inference Workloads in the Computing Continuum with Reinforcement Learning},
+  booktitle = {2025 IEEE 45th International Conference on Distributed Computing Systems Workshops (ICDCSW)},
+  pages     = {297--302},
+  year      = {2025},
+  doi       = {10.1109/ICDCSW63273.2025.00056}
+}
+  </pre>
+  </div>
+</li>
+
 <!-- Item: alvarez2025a -->
 <li class="pub-item" data-year="2025">
   <p class="pub-authors">F. Álvarez, <b>F. Diego</b>, M. Rozanska, R. Sanfeliu, Y. Verginadis and G. Horn.</p>
@@ -803,6 +825,7 @@ div.noshow { display: none; }
   <p class="pub-links">
     <a href="javascript:toggleBibtex('castellano2023a')">[BibTeX]</a>
     <a href="https://arxiv.org/abs/2301.13618" target="_blank" rel="noopener">[arXiv]</a>
+    <a href="https://doi.org/10.1109/ICDCSW63273.2025.00056" target="_blank" rel="noopener">[Published version (ICDCSW 2025)]</a>
   </p>
   <div id="bib_castellano2023a" class="bibtex noshow">
   <pre>@misc{castellano2023a,
