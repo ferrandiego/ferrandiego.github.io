@@ -9,14 +9,18 @@ redirect_from:
 ---
 
 
-<img class="team-banner" src="/images/fundamental-ai-banner.svg" alt="Fundamental AI and AI for Networking and Computing Continuum" width="1200" height="630">
-
 I am the **Team Lead** of the **Fundamental AI and AI for Networking and Computing Continuum** team at [Telefonica Scientific Research](https://www.telefonica.com/en/sustainability-innovation/innovation/).
+
+<img class="team-banner" src="/images/fundamental-ai-banner.svg" alt="Fundamental AI and AI for Networking and Computing Continuum" width="1200" height="630">
 
 My current research interests include:
 
 - **AI for networking and the cloud/edge continuum** — scheduling, orchestration and management of distributed computing resources.
+- **Reinforcement learning** — sequential decision-making for scheduling inference workloads on distributed edge clusters.
+- **Edge AI and model efficiency** — efficient inference and lightweight models for on-device and edge scenarios.
+- **Security in cloud-native systems** — threat models and security evaluation of cloud-native services.
 - **Machine learning and deep learning** — sparse methods, representation learning and efficient model architectures.
+- **Generative models** — flow-based generative architectures for expression transfer and image manipulation.
 - **Computer vision and low-level image processing** — video alignment, segmentation and change detection.
 - **Computational neuroscience and speech** — signal denoising and efficient speech models.
 
