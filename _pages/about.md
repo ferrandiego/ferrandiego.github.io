@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am the **Team Lead** of the **Fundamental AI and AI for Networking and Computing Continuum** team at [Telefonica Scientific Research](https://www.telefonica.com/en/sustainability-innovation/innovation/).
+I am the **Team Lead** of the **Fundamental AI and AI for Networking and Computing Continuum** team at [Telefonica Scientific Research](https://www.telefonica.com/en/sustainability-innovation/innovation/). I like to research **Theoretical and Applied AI** — from the foundations of machine learning to its deployment in real-world systems.
 
 <img class="team-banner" src="/images/fundamental-ai-banner.svg" alt="Fundamental AI and AI for Networking and Computing Continuum" width="1200" height="630">
 
